@@ -1,0 +1,484 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosRook>
+  <Demo>
+   <White>
+    <Rook>5 4</Rook>
+   </White>
+   <Black>
+    <Queen>8 4</Queen>
+   </Black>
+   <Explanation>fr:--La Tour capture la Reine noire.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Rook captures the Black Queen.--</Explanation>
+   <Move>Player Rook 5 4 8 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>5 4</Rook>
+   </White>
+   <Black>
+    <Pawn>5 2</Pawn>
+   </Black>
+   <Explanation>fr:--La Tour capture la Reine noire.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Rook captures the Black Queen.--</Explanation>
+   <Move>Player Rook 5 4 5 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>5 1</Rook>
+    <Pawn>5 5</Pawn>
+   </White>
+   <Black>
+    <Queen>5 6</Queen>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Déplacez la Tour le plus loin possible sur sa colonne.--&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White to play. Move the Rook as far as possible along it's colonn. --</Explanation>
+   <Move>Player Rook 5 1 5 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>5 1</Rook>
+   </White>
+   <Black>
+    <Queen>5 7</Queen>
+   </Black>
+   <Explanation>fr:--Déplacez la Tour suivant sa colonne le plus loin possible.--&#xd;&#xd;&#xd;&#xd;
+en:--Move the Rook, along its colonn, as far as possible.--</Explanation>
+   <Move>Player Rook 5 1 5 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>8 5</Rook>
+   </White>
+   <Black>
+    <Queen>1 5</Queen>
+    <Pawn>2 5</Pawn>
+   </Black>
+   <Explanation>fr:--Déplacez la Tour le plus loin possible suivant la 5ieme rangée.--&#xd;&#xd;&#xd;
+en:--Move the Rook as far as possible along the 5th rank.--</Explanation>
+   <Move>Player Rook 8 5 2 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>8 6</Rook>
+    <Knight>2 6</Knight>
+   </White>
+   <Black>
+    <Queen>1 6</Queen>
+   </Black>
+   <Explanation>fr:--Déplacez la Tour aussi loin que possible sur la 5ieme rangée.--&#xd;&#xd;
+en:--Move the Rook as far as possible along the 5th rank.--</Explanation>
+   <Move>Player Rook 8 6 3 6-</Move>
+  </Demo>
+ </DemosRook>
+ <DemosKnight>
+  <Demo>
+   <White>
+    <Knight>4 1</Knight>
+   </White>
+   <Explanation>fr:--Effectuez un mouvement possible pour le Cavalier.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do one possible move for the Knight.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <Knight>1 7</Knight>
+   </White>
+   <Black>
+    <Bishop>3 6</Bishop>
+   </Black>
+   <Explanation>fr:--Le Cavalier capture le Fou.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white Knight captures the Bishop.--</Explanation>
+   <Move>Player Knight 1 7 3 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Knight>7 5</Knight>
+   </White>
+   <Black>
+    <Rook>8 8</Rook>
+    <King>4 8</King>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Explanation>fr:--Le Cavalier attaque la Tour et le Roi. Le Roi en échec est obligé de bouger. Prenez la Tour!--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Knight attacks the Rook and the King in the same time. The King is in check and so has to move. Capture the Rook!--</Explanation>
+   <Move>Auto Knight 7 5 6 7-Auto King 4 8 5 8-Player Knight 6 7 8 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Knight>6 3</Knight>
+    <Knight>8 2</Knight>
+    <King>6 1</King>
+   </White>
+   <Black>
+    <Rook>6 8</Rook>
+    <Rook>5 8</Rook>
+    <Rook>7 8</Rook>
+   </Black>
+   <Explanation>fr:--Effectuez le seul mouvement autorisé. Conseil : vous devez penser à la règle d'or décrite en cliquant sur la bouton bleu "informations".--&#xd;
+en:--Do the only possible move. Tip : you have to think to the gold rule described in the explanation clicking on the blue button "informations".--&#xd;
+</Explanation>
+   <Move>Player Knight 8 2 7 4-</Move>
+  </Demo>
+ </DemosKnight>
+ <DemosBishop>
+  <Demo>
+   <White>
+    <Bishop>3 2</Bishop>
+   </White>
+   <Explanation>fr:--Effectuez un mouvement autorisé pour le Fou.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do one allowed move for the Bishop.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>7 6</Bishop>
+   </White>
+   <Black>
+    <Pawn>3 2</Pawn>
+   </Black>
+   <Explanation>fr:--Capturez le Pion noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Pawn--</Explanation>
+   <Move>Player Bishop 7 6 3 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>3 4</Bishop>
+    <Pawn>5 6</Pawn>
+   </White>
+   <Black>
+    <Queen>7 8</Queen>
+    <Pawn>1 6</Pawn>
+   </Black>
+   <Explanation>fr:--Avec le Fou blanc, prenez la pièce noire qu'il est possible de capturer.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--With the white Bishop, take the black piece that it is possible to capture.--</Explanation>
+   <Move>Player Bishop 3 4 1 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>2 5</Bishop>
+   </White>
+   <Black>
+    <Rook>8 1</Rook>
+    <King>5 8</King>
+    <Pawn>3 6</Pawn>
+   </Black>
+   <Explanation>fr:--Le Fou capture le Pion en C6 et attaque le Roi et la Tour. Le Roi en échec est obligé de bouger. Prenez la Tour!--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Bishop captures the Pawn at C6 and attacks the King and the Rook. The King is in check and so has to move. Capture the Rook!--</Explanation>
+   <Move>Auto Bishop 2 5 3 6-Auto King 5 8 5 7-Player Bishop 3 6 8 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>2 3</Queen>
+    <Knight>3 4</Knight>
+    <King>6 1</King>
+   </White>
+   <Black>
+    <Bishop>6 7</Bishop>
+    <King>7 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Quelle est la pièce qu'il est possible de capturer ? Capturez-la.--
+en:--Black to play. What is the piece that is possible to capture ? Do capture it.-</Explanation>
+   <Move>Player Bishop 6 7 3 4-</Move>
+  </Demo>
+ </DemosBishop>
+ <DemosQueen>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Explanation>fr:--Effectuez un mouvement autorisé pour la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do one allowed move for the Queen.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>4 7</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>4 1</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>5 5</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 5 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>1 5</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 1 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>1 8</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 1 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>5 4</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 5 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>6 7</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 6 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 5</Queen>
+   </White>
+   <Black>
+    <Knight>1 2</Knight>
+   </Black>
+   <Explanation>fr:--Capturez le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do capture the black Knight.--</Explanation>
+   <Move>Player Queen 4 5 1 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 6</Queen>
+   </White>
+   <Black>
+    <Bishop>2 6</Bishop>
+    <Rook>7 8</Rook>
+    <King>6 8</King>
+   </Black>
+   <Explanation>fr:--La Reine blanche attaque la Tour et le Fou. Les noirs bougent leur Tour mais ne peuvent défendre leur Fou. Prenez le Fou!--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white Queen attacks the Rook and the Bishop in the same time. The black player moves the Rook but cannot protect the Bishop. Capture the Bishop!--</Explanation>
+   <Move>Auto Rook 7 8 7 1-Player Queen 5 6 2 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>2 5</Bishop>
+   </White>
+   <Black>
+    <Queen>8 1</Queen>
+    <King>5 8</King>
+    <Pawn>3 6</Pawn>
+   </Black>
+   <Explanation>fr:--Le Fou capture le Pion en C6 et attaque le Roi et la Reine. Le Roi est en échec mais la Reine capture le Fou! (il est vraiment fou ce Fou).--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Bishop captures the Pawn at C6 and attacks the King and the Queen. The King is in check but the Queen captures the Bishop!--</Explanation>
+   <Move>Auto Bishop 2 5 3 6-Player Queen 8 1 3 6-</Move>
+  </Demo>
+ </DemosQueen>
+ <DemosKing>
+  <Demo>
+   <White>
+    <King>4 2</King>
+   </White>
+   <Explanation>fr:--Effectuez un mouvement autorisé pour le Roi.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--Do one allowed move for the King.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>4 1</Rook>
+   </White>
+   <Black>
+    <Bishop>1 4</Bishop>
+   </Black>
+   <Explanation>fr:--Le Fou a tué votre Tour, mais vous pouvez le capturer.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Bishop killed your Rook, but you can capture it.--</Explanation>
+   <Move>Auto Bishop 1 4 4 1-Player King 5 1 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>4 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Black>
+    <Rook>4 8</Rook>
+   </Black>
+   <Explanation>fr:--La Tour noire a tué la votre mais vous pouvez la capturer.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The black Rook killed your's but you can capture it.--</Explanation>
+   <Move>Auto Rook 4 8 4 1-Player King 5 1 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>4 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Black>
+    <Bishop>1 4</Bishop>
+    <Rook>4 8</Rook>
+   </Black>
+   <Explanation>fr:--La Tour noire a tué la votre et vous met en échec. Vous n'avez qu'un mouvement possible &#xd;&#xd;&#xd;&#xd;&#xd;
+(Vérifier la position du Fou qui protège la Tour. Vous ne pouvez tuer la Tour car vous seriez en échec avec le Fou).--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The black Rook killed your's and gives check. You have only one allowed move &#xd;&#xd;&#xd;&#xd;&#xd;
+(check the Bishop position who protects the Rook. You cannot kill the Rook because you would be in check with the Bishop).--</Explanation>
+   <Move>Auto Rook 4 8 4 1-Player King 5 1 5 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>4 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>5 2</Pawn>
+   </White>
+   <Black>
+    <Bishop>1 4</Bishop>
+    <Rook>4 8</Rook>
+   </Black>
+   <Explanation>fr:--Le Roi est échec et mat. Il ne peut s'enfuir ni tuer la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The King is checkmate. He cannot escape nor kill the Rook.--</Explanation>
+   <Move>Auto Rook 4 8 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 2</King>
+   </White>
+   <Black>
+    <Pawn>5 3</Pawn>
+    <King>5 5</King>
+   </Black>
+   <Explanation>fr:--Le Roi blanc capture le Pion.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white King captures the Pawn.--</Explanation>
+   <Move>Player King 5 2 5 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 2</King>
+   </White>
+   <Black>
+    <Pawn>5 3</Pawn>
+    <King>5 4</King>
+   </Black>
+   <Explanation>fr:--Le Roi blanc ne peut pas capturer le Pion, il serait mis en échec contre le Roi noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white King cannot capture the Pawn, he would be in check against the black King.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 2</King>
+   </White>
+   <Black>
+    <Knight>6 3</Knight>
+   </Black>
+   <Explanation>fr:--Le Roi blanc capture le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white King captures the black Knight.--</Explanation>
+   <Move>Player King 5 2 6 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 2</King>
+   </White>
+   <Black>
+    <Knight>4 1</Knight>
+   </Black>
+   <Explanation>fr:--Le Roi blanc capture le Cavalier noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white King captures the black Knight.--</Explanation>
+   <Move>Player King 5 2 4 1-</Move>
+  </Demo>
+ </DemosKing>
+ <DemosPawn>
+  <Demo>
+   <White>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Black>
+    <Queen>6 4</Queen>
+   </Black>
+   <Explanation>fr:--Le Pion capture la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Pawn captures the Queen.--</Explanation>
+   <Move>Player Pawn 5 3 6 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Black>
+    <Pawn>4 4</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion blanc capture le Pion noir.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white Pawn captures the black Pawn.--</Explanation>
+   <Move>Player Pawn 5 3 4 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Explanation>fr:--Le Pion ne peut bouger que d'une case en avant.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Pawn can only move on square forward.--</Explanation>
+   <Move>Player Pawn 5 3 5 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Pawn>5 3</Pawn>
+   </White>
+   <Black>
+    <Pawn>5 4</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion ne peut pas bouger.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The Pawn cannot move.--</Explanation>
+  </Demo>
+  <Demo>
+   <White>
+    <Pawn>3 6</Pawn>
+    <King>2 7</King>
+   </White>
+   <Black>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Le Pion blanc fait un mouvement qui met le Roi noir en échec. &#xd;&#xd;&#xd;&#xd;&#xd;
+Le Roi noir ne peut pas tuer le Pion car ce dernier est protégé par le Roi blanc.&#xd;&#xd;&#xd;&#xd;&#xd;
+Le Roi noir ne peut pas se mettre en C8 car la case est attaquée par le Roi blanc.--&#xd;&#xd;&#xd;&#xd;&#xd;
+   		en:--The white Pawn does a move which gives check to the black King. &#xd;&#xd;&#xd;&#xd;&#xd;
+The black King cannot kill the Pawn because it is protected by the white King.&#xd;&#xd;&#xd;&#xd;&#xd;
+The black King cannot move to the C8 square because it is attacked by the white King. --</Explanation>
+   <Move>Auto King 5 8 4 8-Player Pawn 3 6 3 7-Auto King 4 8 4 7-</Move>
+  </Demo>
+ </DemosPawn>
+</ToutesDemos>

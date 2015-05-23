@@ -1,0 +1,240 @@
+/*Main window */
+QMainWindow {background-color : sColorMainWindow;}
+QDialog {background-color : sColorMainWindow;
+	     }
+QScrollBar {background-color :sColorMainWindow;}
+
+QGraphicsView {background-color : sColorMainWindow;}
+
+QTextBrowser  {background-color : sColorMainWindow;}
+
+QProgressBar {background-color : sColorMainWindow;}
+QProgressBar::chunk {background-color : sColorHover;
+		     width : 15px;
+		     margin : 0.5px;}
+
+/* barre des menus */
+QMenuBar {
+     background-color: sColorMainWindow;	
+     color : black;
+ }
+
+QMenuBar::item {
+     spacing: 3px; /* spacing between menu bar items */
+     padding: 1px 4px;
+     background: transparent;
+     border-radius: 4px;
+ }
+
+ QMenuBar::item:selected { /* when selected using mouse or keyboard */
+     background: sColorBackground;
+     color     : sColorText;
+ }
+
+ QMenuBar::item:pressed {
+     background: sColorBackground;
+ }
+
+/* le menu */
+QMenu {
+     background-color: sColorBackground;
+     margin	     : 2px; /* some spacing around the menu */
+     color 	     : sColorText;
+ }
+
+ QMenu::item {
+     padding: 2px 25px 2px 20px;
+     border : 1px solid transparent; /* reserve space for selection border */
+     border-radius    : 3px;
+ }
+
+ QMenu::item:selected {
+     border-color: black;
+     background  : sColorHover;
+ }
+
+ QMenu::icon:checked { /* appearance of a 'checked' icon */
+     background : gray;
+     border	: 1px inset gray;
+     position	: absolute;
+     top	: 1px;
+     right	: 1px;
+     bottom	: 1px;
+     left	: 1px;
+ }
+
+ QMenu::separator {
+     height	 : 2px;
+     background  : black;
+     margin-left : 10px;
+     margin-right: 5px;
+ }
+
+ QMenu::indicator {
+     width  : 13px;
+     height : 13px;
+ }
+
+
+/* les onglets */
+QTabWidget::pane { /* The tab widget frame */
+     border-top : none;
+     padding-top : 8px;
+ }
+
+QTabWidget::tab-bar {
+     left	     : 5px; /* move to the right by 5px */
+}
+
+ /* Style the tab using the tab sub-control.  */
+QTabBar::tab {
+     background 	     : sColorBackground;
+     color      	     : sColorText;
+     border     	     : 2px solid sColorSelection;
+     border-bottom-color     : sColorSelection;
+     border-top-left-radius  : 4px;
+     border-top-right-radius : 4px;
+     min-width		     : 8ex;
+     padding		     : 2px;
+ }
+
+QTabBar::tab:item {min-width	: 7.2em;}
+
+QTabBar::tab:selected {
+     background: sColorSelection;
+}
+
+QTabBar::tab:hover:!selected {
+	background : sColorHover;
+}
+
+QTabBar::tab:selected {
+     border-color	:  sColorBackground;
+ }
+
+
+ QTabBar::tab:!selected {
+     margin-top		 : 2px; /* make non-selected tabs look smaller */
+ }
+
+ /* make use of negative margins for overlapping tabs */
+ QTabBar::tab:selected {
+     /* expand/overlap to the left and right by 4px */
+     /*margin-left         : -4px;
+     margin-right	 : -4px;*/
+ }
+
+ QTabBar::tab:first:selected {
+     margin-left	 : 0; /* the first selected tab has nothing to overlap with on the left */
+ }
+
+ QTabBar::tab:last:selected {
+     margin-right	 : 0; /* the last selected tab has nothing to overlap with on the right */
+ }
+
+ QTabBar::tab:only-one {
+     margin	         : 0; /* if there is only one tab, we don't want overlapping margins */
+ }
+
+
+/* config des listes */
+QListWidget {background-color       : sColorMainWindow; 
+	     border		    : none;
+	    }
+QListWidget::item {color            : sColorText;
+		   border           : 1px solid sColorSelection;
+		   border-radius    : 5px;
+		   margin-top       : 1px;
+		   margin-bottom    : 1px;
+		   background-color : sColorBackground;
+		   height 	    : 33px;
+		   }
+QListWidget::item:hover { background-color    : sColorHover;}
+QListWidget::item:selected {background-color  : sColorSelection;}
+
+/* config des pushbutton */
+QPushButton {border	   : 1px solid sColorSelection;
+	     border-radius : 6px;
+	     min-width     : 6em;
+	     min-height    : 2em;}
+QPushButton::pressed {background-color : sColorHover;}
+QPushButton::enabled  { color		 : sColorText;
+		        background-color : sColorBackground;}
+QPushButton::disabled { background-color : sColorDisabled;}
+
+/*config des radio button */
+QRadioButton::hover {background-color    : sColorHover;}
+
+/* config des tableaux */
+QTableView { border-radius		: 5px;
+	     background-color 		: sColorMainWindow;}
+
+QTableView::item:selected {background-color : sColorHover;}
+QTableCornerButton::section { background-color : sColorMainWindow;}
+
+QHeaderView { background-color : sColorMainWindow;}
+QHeaderView::up-arrow {image: url(:/images/ArrowUp.png);}
+QHeaderView::down-arrow {image: url(:/images/ArrowDown.png);}
+
+/*QHeaderView::up-arrow {image: url(:/images/ArrowUp.png);
+		       width  : 13px;
+		       height : 9px;
+		       subcontrol-position : bottom right;}
+*/
+QHeaderView::section {color : sColorText;
+		      background-color : sColorBackground;}
+
+/*config des combos */
+QComboBox { color            : sColorText;
+	    background-color : sColorSelection;
+	    border	     : 1px solid gray;
+    	    border-radius    : 3px;
+    	    padding	     : 1px 14px 1px 3px;
+            min-width	     : 1em;}
+
+
+QComboBox QListView  {background-color :  sColorBackground;
+ 		      }
+
+QComboBox::!editable:off,  
+QComboBox::!editable:on  {
+   			    background-color : sColorHover;
+}
+
+
+QComboBox::on { /* shift the text when the popup opens */
+     padding-top: 3px;
+     padding-left: 4px;
+}
+
+
+QComboBox::drop-down {
+     subcontrol-origin: padding;
+     subcontrol-position: top right;
+     width: 15px;
+
+     border-left-width: 1px;
+     border-left-color: darkgray;
+     border-left-style: solid; /* just a single line */
+     border-top-right-radius: 3px; /* same radius as the QComboBox */
+     border-bottom-right-radius: 3px;
+     background-color : sColorBackground;
+ }
+
+QComboBox::down-arrow {image: url(:/images/ArrowDown.png);
+		       width  : 13px;
+		       height : 13px;
+		       subcontrol-position : right}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+     top : 1px;
+     left: 1px;
+ }
+
+
+/* label de bienvenue */
+QLabel#labelWelcome {margin-top : 2 px;
+		     color      : blue;
+		     font       : bold 14px;} 
+
+
+

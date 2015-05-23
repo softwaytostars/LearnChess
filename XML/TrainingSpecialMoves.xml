@@ -1,0 +1,322 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosPromotion>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Pawn>1 7</Pawn>
+   </White>
+   <Black>
+    <Queen>8 8</Queen>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--C'est aux blancs de jouer. Un seul coup doit être joué pour être certain de gagner la Reine noire. &#xd;&#xd;
+Indication : Il faut mettre le Roi noir en échec.--&#xd;&#xd;
+		en:--It is white to play. One move must be played to be certain to win the Black Queen.&#xd;&#xd;
+Note: We must put the black King in check.--</Explanation>
+   <Move>Player Pawn 1 7 1 8 Queen-Auto King 5 8 6 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Pawn>1 7</Pawn>
+   </White>
+   <Black>
+    <Queen>8 8</Queen>
+    <King>5 8</King>
+    <Bishop>2 8</Bishop>
+   </Black>
+   <Explanation>fr:--C'est aux blancs de jouer. Un seul coup doit être joué pour être certain de gagner la Reine noire.--&#xd;&#xd;
+		en:--It is white to play. One move must be played to be certain to win the Black Queen.--</Explanation>
+   <Move>Player Pawn 1 7 2 8 Queen-Auto King 5 8 6 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Pawn>6 7</Pawn>
+   </White>
+   <Black>
+    <Queen>8 8</Queen>
+    <King>8 7</King>
+    <Pawn>7 6</Pawn>
+    <Pawn>7 7</Pawn>
+    <Knight>7 8</Knight>
+    <Bishop>8 6</Bishop>
+   </Black>
+   <Explanation>fr:--C'est aux blancs de jouer. Un seul coup permet de faire échec et mat immédiatement au Roi noir--&#xd;&#xd;
+		en:--It is white to play. One move allows to give checkmate immediately to the black King.--</Explanation>
+   <Move>Player Pawn 6 7 6 8 Knight-</Move>
+  </Demo>
+ </DemosPromotion>
+ <DemosEnPassant>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Pawn>5 4</Pawn>
+   </White>
+   <Black>
+    <King>3 8</King>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 6</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion blanc atteint la 5ième rangée. Le Pion noir F7 avance de 2 cases, lui évitant de se faire éventuellement attaquer. Erreur fatale! Faites lui la prise en passant!--&#xd;&#xd;
+   		en:--The white Pawn has reached the 5th rank. The black Pawn F7 advance 2 squares, preventing it to be eventually attacked. Fatal error! Make him The "En passant" chess move. --</Explanation>
+   <Move>Auto Pawn 5 4 5 5-Auto Pawn 6 7 6 5-Player Pawn 5 5 6 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Pawn>8 4</Pawn>
+   </White>
+   <Black>
+    <King>3 8</King>
+    <Pawn>7 7</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion blanc atteint la 5ième rangée. Le Pion noir F7 avance de 2 cases, lui évitant de se faire éventuellement attaquer. Erreur fatale! Faites lui la prise en passant!--&#xd;&#xd;
+   		en:--The white Pawn has reached the 5th rank. The black Pawn F7 advance 2 squares, preventing it to be eventually attacked. Fatal error! Make him the "En passant" chess move. --</Explanation>
+   <Move>Auto Pawn 8 4 8 5-Auto Pawn 7 7 7 5-Player Pawn 8 5 7 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Rook>5 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 4</Pawn>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Rook>8 8</Rook>
+    <Pawn>5 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+    <Knight>6 7</Knight>
+   </Black>
+   <Explanation>fr:--Le Pion blanc atteint la 5ième rangée. Le Pion noir E7 avance de 2 cases, lui évitant de se faire éventuellement attaquer. Faites lui la prise en passant!--&#xd;&#xd;
+   		en:--The white Pawn has reached the 5th rank. The black Pawn E7 advance 2 squares, preventing it to be eventually attacked. Make him the "En passant" chess move. --</Explanation>
+   <Move>Auto Pawn 4 4 4 5-Auto Pawn 5 7 5 5-Player Pawn 4 5 5 6-</Move>
+  </Demo>
+ </DemosEnPassant>
+ <DemosLittleCastling>
+  <Demo>
+   <White>
+    <Queen>4 1</Queen>
+    <Bishop>3 1</Bishop>
+    <Bishop>3 4</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 2</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>2 1</Knight>
+    <Knight>6 3</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>3 8</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 6</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>3 6</Knight>
+    <Knight>7 8</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Effectuez le petit roque.--&#xd;
+en:--Whites to play. Do the little castling.--</Explanation>
+   <Move>Player King 5 1 7 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>8 1</Rook>
+    <Queen>4 1</Queen>
+    <Knight>3 3</Knight>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 4</Pawn>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Rook>8 8</Rook>
+    <Pawn>5 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+    <Bishop>5 6</Bishop>
+   </Black>
+   <Explanation>fr:--Le Roi blanc veut roquer (petit roque) mais le Fou noir l'en empêche car il attaque son chemin! Le Cavalier fait une sortie pour permettre le roque au prochain coup (il sera protégé par la Reine).--&#xd;&#xd;
+   		en:--The white King wants to castle (little castle) but the black Bishop prevents it because he attacks the King's path! The Knight moves to help him to castle at the next play (he will be protected by the Queen).--</Explanation>
+   <Move>Auto Bishop 5 6 3 4-Player Knight 3 3 5 2-Auto Knight 2 8 3 6-Auto King 5 1 7 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>8 1</Rook>
+    <Queen>5 3</Queen>
+    <Bishop>3 5</Bishop>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Rook>8 8</Rook>
+    <Knight>7 8</Knight>
+    <Bishop>6 8</Bishop>
+    <Pawn>5 5</Pawn>
+    <Pawn>4 5</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+   </Black>
+   <Explanation>fr:--C'est au tour des blancs de jouer. Ils peuvent décider d'un coup pour empêcher le Roi noir de roquer (pensez à l'échange de pièces, si le Roi bouge, il ne peut plus roquer).--&#xd;&#xd;
+   		en:--It's time for white to play. They can decide to do one move in order to prevent the black King from castling (think at piece exchange, if the King moves, he can not castle anymore).--</Explanation>
+   <Move>Player Bishop 3 5 6 8-Auto King 5 8 6 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 1</Queen>
+    <Bishop>3 1</Bishop>
+    <Bishop>6 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 4</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>3 3</Knight>
+    <Knight>6 3</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>3 8</Bishop>
+    <Bishop>2 4</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 7</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 6</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+    <Knight>8 6</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Vous devez trouver un coup qui permet d'empêcher le Roi noir de faire le petit roque au prochain coup. Conseil : Le Roi ne peut pas faire le Roque si son chemin est attaqué. Quelle pièce blanche permettrait d'attaquer ce chemin ?--&#xd;&#xd;
+en:--White to play. You need to find the move that prevents the black King to castle the very next move. Tip : the King cannot do the castling if it's path is attacked. Which white piece could attack this path right now ?--</Explanation>
+   <Move>Player Bishop 6 1 3 4-</Move>
+  </Demo>
+ </DemosLittleCastling>
+ <DemosBigCastling>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>8 1</Rook>
+    <Queen>4 2</Queen>
+    <Rook>1 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+   </White>
+   <Explanation>fr:--Effectuez le grand roque.--&#xd;&#xd;
+   		en:--Do castle the King.--</Explanation>
+   <Move>Player King 5 1 3 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>8 1</Rook>
+    <Rook>1 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+   </White>
+   <Black>
+    <King>4 8</King>
+    <Rook>5 8</Rook>
+    <Rook>3 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>5 7</Pawn>
+   </Black>
+   <Explanation>fr:--Trouvez le coup qui fait mat au Roi noir.--&#xd;&#xd;
+   		en:--Find the move that does checkmate to the black King.--</Explanation>
+   <Move>Player King 5 1 3 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Rook>1 1</Rook>
+    <Bishop>6 1</Bishop>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Rook>4 8</Rook>
+    <Rook>1 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+   </Black>
+   <Explanation>fr:--C'est au tour des blancs de jouer. La Tour noire empêche les blancs de roquer car il fait échec au Roi. Trouver le coup qui leur permette de roquer.--&#xd;&#xd;
+   		en:--It's time for white to play. The black Rook prevents White from castling because it attacks him. Find the move that allows them to castle.--</Explanation>
+   <Move>Player Bishop 6 1 4 3-</Move>
+  </Demo>
+ </DemosBigCastling>
+</ToutesDemos>

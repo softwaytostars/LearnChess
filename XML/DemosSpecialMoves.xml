@@ -1,0 +1,228 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosPromotion>
+  <Demo>
+   <White>
+    <Pawn>1 7</Pawn>
+   </White>
+   <Explanation>fr:--Le Pion atteint la 8ième rangée. Il est promu en Reine, Cavalier, Fou ou Tour (ici en Reine).--
+   		en:--The Pawn reached the 8th rank. It is promoted in Queen, Knight, Bishop or Rook (here in Queen).--</Explanation>
+   <Move>Auto Pawn 1 7 1 8-x Pawn 1 8 -+ 1 Queen 1 8 -</Move>
+  </Demo>
+  <Demo>
+   <Black>
+    <Pawn>5 2</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion noir atteint la 2ième rangée. Il est promu en Reine, Cavalier, Fou ou Tour (ici en Reine).--
+   		en:--The Pawn reached the 2th rank. It is promoted in Queen, Knight, Bishop or Rook (here in Queen).--</Explanation>
+   <Move>Auto Pawn 5 2 5 1-x Pawn 5 1 -+ 0 Queen 5 1 -</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Pawn>1 7</Pawn>
+   </White>
+   <Black>
+    <Knight>2 8</Knight>
+   </Black>
+   <Explanation>fr:--Le Pion atteint la 8ième rangée en tuant le Cavalier noir. Il est promu en Reine, Cavalier, Fou ou Tour (ici en Reine).--
+   		en:--The Pawn reached the 8th rank by killing the black Knight. It is promoted in Queen, Knight, Bishop or Rook (here in Queen).--</Explanation>
+   <Move>Auto Pawn 1 7 2 8-x Knight 2 8 -x Pawn 2 8 -+ 1 Queen 2 8 -</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>1 1</Rook>
+   </White>
+   <Black>
+    <Pawn>2 2</Pawn>
+   </Black>
+   <Explanation>fr:--Le Pion atteint la 2ième rangée en tuant la Tour blanche. Il est promu en Reine, Cavalier, Fou ou Tour (ici en Reine).--
+   		en:--The Pawn reached the 2th rank by killing the black Rook. It is promoted in Queen, Knight, Bishop or Rook (here in Queen).--</Explanation>
+   <Move>Auto Pawn 2 2 1 1-x Rook 1 1 -x Pawn 1 1-+ 0 Queen 1 1 -</Move>
+  </Demo>
+ </DemosPromotion>
+ <DemosEnPassant>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Bishop>6 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 4</Pawn>
+    <Knight>7 1</Knight>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Bishop>3 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+   </Black>
+   <Explanation>fr:--Le Pion blanc atteint la 5ième rangée. Un Pion noir avance de 2 cases. Si il avait avancé que d'une case, le Pion blanc aurait pu l'attaquer.
+Dans ce cas là, le joueur blanc a le choix au prochain coup de prendre le Pion noir comme si il avait avancé que d'une case.--
+   		en:--The white Pawn has reached the 5th rank. A black Pawn advance of 2 squares. If it had moved only one square, the white Pawn could have attacked him.
+In this case, the white player has the choice, the next play, to capture the black Pawn as if it had moved only one square. --</Explanation>
+   <Move>Auto Pawn 8 4 8 5-Auto Pawn 7 7 7 5-Auto Pawn 8 5 7 6-x Pawn 7 5 -</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Bishop>6 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 4</Pawn>
+    <Knight>7 1</Knight>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Bishop>3 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>4 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+   </Black>
+   <Explanation>fr:--Le Pion noir atteint la 4ième rangée. Un Pion blanc avance de 2 cases. Si il avait avancé que d'une case, le Pion noir aurait pu l'attaquer.
+Dans ce cas là, le joueur noir a le choix au prochain coup de prendre le Pion blanc comme si il avait avancé que d'une case.--
+   		en:--The black Pawn has reached the 4th rank. A white Pawn advance of 2 squares. If it had moved only one square, the black Pawn could have attacked him.
+In this case, the black player has the choice, the next play, to capture the white Pawn as if it had moved only one square. --</Explanation>
+   <Move>Auto Pawn 4 5 4 4-Auto Pawn 3 2 3 4-Auto Pawn 4 4 3 3-x Pawn 3 4 -</Move>
+  </Demo>
+ </DemosEnPassant>
+ <DemosBigCastling>
+   <Demo>
+   <White>
+    <Queen>4 2</Queen>
+    <Bishop>5 3</Bishop>
+    <Bishop>6 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 3</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>3 3</Knight>
+    <Knight>7 1</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>5 6</Bishop>
+    <Bishop>5 7</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 6</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+    <Knight>6 6</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Les blancs effectuent le grand roque (la Tour choisie est celle la plus éloignée avec le Roi).--
+en:--Whites do the big castling (the chosen Rook corresponds to the furthest Rook from the King).--
+</Explanation>
+   <Move>Auto King 5 1 3 1-Auto Rook 1 1 4 1-</Move>
+  </Demo>
+  <Demo>
+   <Black>
+    <King>5 8</King>
+    <Rook>1 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 7</Pawn>
+   </Black>
+   <Explanation>fr:--Les noirs font le grand Roque. Le Roi se déplace de 2 cases vers sa tour A et la Tour passe derrière le Roi.--
+		en:--Black player do the Big castle. The King moves 2 squares toward its A Rook and the Rook moves behind the King.--</Explanation>
+   <Move>Auto King 5 8 3 8-Auto Rook 1 8 4 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Bishop>6 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>5 2</Pawn>
+   </White>
+   <Explanation>fr:--Les blancs font le grand Roque. Le Roi se déplace de 2 cases vers sa tour A et la Tour passe derrière le Roi.--
+		en:--White player do the Big castle. The King moves 2 squares toward its A Rook and the Rook moves behind the King.--</Explanation>
+   <Move>Auto King 5 1 3 1-Auto Rook 1 1 4 1-</Move>
+  </Demo>
+ </DemosBigCastling>
+ <DemosLittleCastling>
+  <Demo>
+   <Black>
+    <King>5 8</King>
+    <Queen>4 8</Queen>
+    <Bishop>3 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 7</Pawn>
+    <Pawn>5 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+   </Black>
+   <Explanation>fr:--Les noirs font le petit Roque. Le Roi se déplace de 2 cases vers sa tour H et la Tour passe derrière le Roi.--
+		en:--Black player do the little castle. The King moves 2 squares toward its H Rook and the Rook moves behind the King.--</Explanation>
+   <Move>Auto King 5 8 7 8-Auto Rook 8 8 6 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Queen>4 1</Queen>
+    <Bishop>3 1</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 2</Pawn>
+    <Pawn>5 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>2 1</Knight>
+   </White>
+   <Explanation>fr:--Les blancs font le petit Roque. Le Roi se déplace de 2 cases vers sa tour H et la Tour passe derrière le Roi.--
+		en:--White player do the little castle. The King moves 2 squares toward its H Rook and the Rook moves behind the King.--</Explanation>
+   <Move>Auto King 5 1 7 1-Auto Rook 8 1 6 1-</Move>
+  </Demo>
+ </DemosLittleCastling>
+</ToutesDemos>

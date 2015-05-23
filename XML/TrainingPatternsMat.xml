@@ -1,0 +1,920 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosMatCouloir>
+  <Demo>
+   <Black>
+    <King>1 8</King>
+    <Queen>4 7</Queen>
+    <Rook>6 1</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+   </Black>
+   <White>
+    <King>1 2</King>
+    <Queen>3 5</Queen>
+    <Knight>6 5</Knight>
+   </White>
+   <Explanation>fr:--Aux noirs de jouer. Un coup de la Reine permet de faire échec et mat au prochain coup.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. A move from the Queen gives checkmate to the next move.--</Explanation>
+   <Move>Player Queen 3 5 6 8-Auto Queen 4 7 3 8-Auto Queen 6 8 3 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>3 4</Queen>
+    <Rook>5 1</Rook>
+    <Rook>6 2</Rook>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 3</Pawn>
+    <Pawn>4 3</Pawn>
+   </White>
+   <Black>
+    <King>8 8</King>
+    <Queen>6 4</Queen>
+    <Rook>5 8</Rook>
+    <Pawn>7 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Il faut trouver 2 coups qui permettent de faire échec et mat au Roi blanc. Conseil : La Tour E1 n'est pas défendue.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. You need to find 2 moves which allow to give checkmate to the white King. Hint : the Rook E1 is not protected.--</Explanation>
+   <Move>Player Rook 5 8 5 1-Auto Rook 6 2 6 1-Player Rook 5 1 6 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>1 1</King>
+    <Rook>4 1</Rook>
+    <Pawn>1 6</Pawn>
+    <Pawn>2 6</Pawn>
+   </White>
+   <Black>
+    <King>2 8</King>
+    <Rook>4 8</Rook>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Un seul coup permet de faire le mat du couloir. En effet, les pions empêchent le Roi noir de se déplacer sur les cases A7, B7 et C7.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Only one move allows to do the back rank mate. Indeed, Pawns prevent the black King to move to the squares A7, B7 and C7.--</Explanation>
+   <Move>Player Rook 4 1 4 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 2</Queen>
+    <Rook>7 1</Rook>
+    <King>6 1</King>
+   </White>
+   <Black>
+    <Queen>2 8</Queen>
+    <Rook>7 8</Rook>
+    <Pawn>8 5</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les Blancs font mat en un coup.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. White can mate in one move.--</Explanation>
+   <Move>Player Queen 5 2 8 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>8 2</Queen>
+    <Bishop>7 3</Bishop>
+    <Rook>6 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Queen>5 8</Queen>
+    <Rook>4 8</Rook>
+    <Pawn>3 7</Pawn>
+    <King>2 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les blancs ont faire une erreur en bougeant leur Tour pour menacer la Reine noire. En effet, un sacrifice de cette dernière permet un mat rapide!--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. White player did a mistake moving the Rook for threatening the black Queen. Indeed, a sacrifice of this one allows a fast mate!--</Explanation>
+   <Move>Auto Rook 6 1 5 1-Player Queen 5 8 5 1-Auto Bishop 7 3 5 1-Auto Rook 4 8 4 1-</Move>
+  </Demo>
+ </DemosMatCouloir>
+ <DemosMatLolli>
+  <Demo>
+   <White>
+    <Queen>8 6</Queen>
+    <King>3 5</King>
+   </White>
+   <Black>
+    <King>1 5</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Ils font mat en 2 coups. Vous devez trouver les 2 coups qui permettent le mat avec le baiser de la mort.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en--White's to play. White do mate with 2 moves. You have to find them to give checkmate with the dead kiss.--</Explanation>
+   <Move>Player Queen 8 6 2 6-Auto King 1 5 1 4-Player Queen 2 6 2 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>6 7</Rook>
+    <Rook>6 1</Rook>
+    <Pawn>8 2</Pawn>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Queen>1 8</Queen>
+    <Pawn>8 3</Pawn>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Aux noirs de jouer. Les blancs menacent de faire le mat du couloir en mettant la Tour en F8. La Reine capturerait la Tour mais l'autre Tour tuerait la Reine en donnant échec et mat dans le couloir. Mais c'est aux noirs de jouer et un coup permet de faire mat!--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Whites are threatening the back rank mate moving a Rook in F8. The Queen would capture it but the other Rook would kill her giving checkmate in the back rank. But Blacks play first and they have one move wich allows the checkmate!--</Explanation>
+   <Move>Player Queen 1 8 7 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 4</Queen>
+    <Knight>1 5</Knight>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Bishop>4 8</Bishop>
+    <Rook>5 8</Rook>
+    <Rook>5 6</Rook>
+    <King>2 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Un coup permet de faire le baiser de la mort.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White's to play. One move allows to do a kiss of death.--</Explanation>
+   <Move>Player Queen 5 4 2 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>1 1</Queen>
+    <Rook>8 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Knight>8 2</Knight>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Queen>7 8</Queen>
+    <Bishop>2 7</Bishop>
+    <Rook>1 5</Rook>
+    <Pawn>1 6</Pawn>
+    <Knight>3 5</Knight>
+    <King>1 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les blancs ont détruit la Tour et menacent encore de capturer le Cavalier. Cependant, les blancs ont un coup qui permet de faire échec et mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Whites destroyed the Rook and are threatening the Knight. However, Whites have one move to give checkmate.--</Explanation>
+   <Move>Auto Queen 1 1 1 5-Player Queen 7 8 7 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>1 2</Queen>
+    <Bishop>4 2</Bishop>
+    <Bishop>7 8</Bishop>
+    <Rook>8 1</Rook>
+    <Pawn>3 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>1 3</Pawn>
+    <King>3 1</King>
+   </White>
+   <Black>
+    <Queen>4 4</Queen>
+    <Bishop>6 3</Bishop>
+    <Rook>1 7</Rook>
+    <Rook>3 7</Rook>
+    <Pawn>4 7</Pawn>
+    <King>7 7</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les noirs menacent un baiser de la mort en C2. Cependant, les blancs eu- mêmes peuvent en faitre un tout de suite. Conseil : La Reine blanche et le Fou blanc s'auto-protègent--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Blacks are threatening a kiss of death in C2. However, Whites have also a move that can give checkmate by kiss of death now. Advice : The white Queen and the White Bishop are protecting each other.--</Explanation>
+   <Move>Auto Queen 4 4 3 5-Player Queen 1 2 6 7-</Move>
+  </Demo>
+ </DemosMatLolli>
+ <DemosMatEtouffe>
+  <Demo>
+   <White>
+    <Rook>6 1</Rook>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>3 5</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>5 2</Queen>
+    <Rook>1 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Knight>3 8</Knight>
+    <King>2 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Trouvez le coup qui fait mat par étouffement.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White's to play. Find the move which smothers the black King.--</Explanation>
+   <Move>Player Knight 3 5 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>8 5</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>2 6</Queen>
+    <Bishop>1 7</Bishop>
+    <Pawn>3 7</Pawn>
+    <Knight>5 4</Knight>
+    <King>1 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs peuvent effectuer une menace de mat avec la Reine noire qui force les blancs à se mettre dans une configuration de mat par étouffement.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Blacks can do a move which threatens a mate with the Black Queen. The only possible move will make whites in a smothered configuration.--</Explanation>
+   <Move>Player Queen 2 6 7 1-Auto Rook 4 1 7 1-Auto Knight 5 4 6 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>8 6</Queen>
+    <Knight>7 5</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Bishop>7 6</Bishop>
+    <Rook>7 8</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les blancs peuvent obtenir une configuration de mat par étouffement en sacrifiant la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Whites can obtain a configuration for a smothered mate sacrificing their Queen.--</Explanation>
+   <Move>Player Queen 8 6 8 7-Auto Bishop 7 6 8 7-Auto Knight 7 5 6 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 6</Queen>
+    <Bishop>1 3</Bishop>
+    <Knight>6 7</Knight>
+    <King>4 5</King>
+   </White>
+   <Black>
+    <Queen>1 4</Queen>
+    <Rook>1 8</Rook>
+    <Rook>2 8</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <King>7 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Vous devez trouver 2 coups qui permettent de faire mat par étouffement. Conseil : Si le Cavalier blanc bouge, le Roi sera en échec contre la Reine blanche et aucun autre mouvement que son déplacement ne sera possible. Après, un sacrifice de la Reine blanche sera nécessaire pour faire échec et mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. You need to find two moves that allow to mate by suffocation. Tip: If the White Knight moves, the King will be checked against the White Queen and all other movement that its movement will be forbidden. For the second move, a sacrifice of the White Queen will be needed to checkmate.--</Explanation>
+   <Move>Player Knight 6 7 8 6-Auto King 7 8 8 8-Player Queen 5 6 7 8-Auto Rook 2 8 7 8-Auto Knight 8 6 6 7-</Move>
+  </Demo>
+ </DemosMatEtouffe>
+ <DemosMatEpaulette>
+  <Demo>
+   <White>
+    <Queen>7 1</Queen>
+    <Rook>1 1</Rook>
+    <Pawn>8 2</Pawn>
+    <Knight>6 1</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>1 7</Queen>
+    <Rook>1 8</Rook>
+    <Rook>3 8</Rook>
+    <Knight>2 6</Knight>
+    <King>2 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le Roi noir est entouré de ses 2 Tours, il faut penser au mat des épaulettes.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White's to play. The black King is trapped by it's Rooks, you have to think to the Epaulette mate.--</Explanation>
+   <Move>Auto Queen 1 7 1 1-Player Queen 7 1 2 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 6</Queen>
+    <Bishop>6 7</Bishop>
+    <Rook>8 1</Rook>
+    <Rook>6 1</Rook>
+    <Pawn>8 4</Pawn>
+    <Pawn>5 3</Pawn>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Queen>4 7</Queen>
+    <Bishop>4 6</Bishop>
+    <Rook>3 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Knight>4 3</Knight>
+    <King>2 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Le Roi blanc est bloqué par ses Tours dans une configuration d'épaulettes. Il ne peut pas se rendre ni en F2, ni en H2 à cause du Cavalier noir et du Fou noir. L'échec de la Tour en G8 aurait pu donner échec et mat mais le Fou la capturer. Cependant, ce sacrifice n'est pas inutile car un autre coup permet d'entraîner l'echec et mat. Conseil : Pensez à la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The white King is trapped by its Rooks in an Epaulette configuration. He cannot move to the the squares F2 and H2 because of the black Knight and black Bishop. The check by the Black Rook could have been a checkmate without the white Bishop which captured the Rook. But this sacrifice is useful because another move allows the checkmate. Tip : Look at the Queen.--</Explanation>
+   <Move>Auto Rook 3 8 7 8-Auto Bishop 6 7 7 8-Player Queen 4 7 7 7-Auto Queen 5 6 7 4-Auto Queen 7 7 7 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 5</Queen>
+    <Rook>7 3</Rook>
+    <Pawn>4 4</Pawn>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Queen>1 5</Queen>
+    <Rook>6 8</Rook>
+    <Rook>7 6</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 5</Pawn>
+    <King>6 7</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les noirs se retrouvent dans une position des épaulettes. Trouvez le coup qui fait mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White's to play. Blacks are in an Epaulette position. Find the move that gives checkmate.--</Explanation>
+   <Move>Auto Queen 5 5 6 5-Auto Rook 7 6 6 6-Player Queen 6 5 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>6 1</Rook>
+    <Rook>7 1</Rook>
+    <King>7 2</King>
+   </White>
+   <Black>
+    <Queen>5 3</Queen>
+    <Pawn>6 4</Pawn>
+    <King>1 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Le Roi blanc se retrouve presque dans la position des épaulettes. Il est bloqué par ses Tours. Trouvez le coup qui fait mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black's to play. The white King is nearly in the Epaulette position. He's trapped by it's Rooks. Find the Move which gives checkmate.--</Explanation>
+   <Move>Auto Rook 7 1 8 1-Player Queen 5 3 7 3-</Move>
+  </Demo>
+ </DemosMatEpaulette>
+ <DemosMatArabes>
+  <Demo>
+   <White>
+    <Queen>7 5</Queen>
+    <Rook>3 7</Rook>
+    <Rook>4 1</Rook>
+    <Pawn>4 6</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Knight>5 4</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>1 4</Queen>
+    <Bishop>7 6</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>4 8</Rook>
+    <Rook>1 5</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>2 6</Pawn>
+    <Pawn>1 7</Pawn>
+    <King>7 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. 2 coups sont à trouver pour faire échec et mat. La Reine s'est sacrifiée pour permettre d'obtenir une position de mat Arabe. --&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. 2 moves have to be found in order to give checkmate. The Queen has been sacrificed in order to obtain the Arabian mate position.--</Explanation>
+   <Move>Auto Queen 7 5 7 6-Auto Pawn 8 7 7 6-Player Knight 5 4 6 6-Auto King 7 8 8 8-Player Rook 3 7 8 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>1 2</Queen>
+    <Bishop>5 1</Bishop>
+    <Pawn>8 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>8 5</Queen>
+    <Rook>7 7</Rook>
+    <Rook>6 8</Rook>
+    <Knight>6 3</Knight>
+    <King>8 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. La Reine blanche a donné échec. Si les blancs ne pouvaient pas reprendre, ils serait échec et mat. Cependant, un autre coup permet de faire échec et mat. Trouvez ce coup!--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The white Queen gave a check. If the whites couldn't capture the Queen, they would be mate. However, another move allows to the blacks to checkmate. Find this move!--</Explanation>
+   <Move>Auto Queen 8 5 8 3-Auto Pawn 7 2 8 3-Player Rook 7 7 7 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>7 2</Rook>
+    <Rook>6 6</Rook>
+    <Knight>8 5</Knight>
+    <King>8 2</King>
+   </White>
+   <Black>
+    <Bishop>2 6</Bishop>
+    <Rook>7 8</Rook>
+    <Pawn>8 6</Pawn>
+    <King>8 7</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Il faut trouver 2 coups qui vont permettre de mettre le Roi noir dans une position de mat Arabe.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. You need to find out 2 moves which will allow to force the black King to be in an Arabian mate position.--</Explanation>
+   <Move>Auto Rook 6 6 6 7-Auto King 8 7 8 8-Auto Rook 6 7 8 7-Auto King 8 8 8 7-Player Knight 8 5 6 6-Auto King 8 7 8 8-Player Rook 7 2 7 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>3 5</Queen>
+    <Rook>1 7</Rook>
+    <Rook>2 7</Rook>
+    <Rook>6 1</Rook>
+    <Pawn>7 3</Pawn>
+    <Pawn>8 2</Pawn>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Queen>4 1</Queen>
+    <Rook>1 2</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Knight>7 5</Knight>
+    <King>8 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Vous devez trouver 2 coups qui permettent de faire mat dans la position Arabe.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. You need to find out 2 moves that allow to checkmate in the Arabian position.--</Explanation>
+   <Move>Player Knight 7 5 6 3-Auto King 7 1 8 1-Player Rook 1 2 8 2-</Move>
+  </Demo>
+ </DemosMatArabes>
+ <DemosMatGreco>
+  <Demo>
+   <White>
+    <Bishop>3 4</Bishop>
+    <Rook>3 1</Rook>
+    <Knight>6 4</Knight>
+   </White>
+   <Black>
+    <Queen>3 8</Queen>
+    <Rook>6 8</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Trouver le coup qui va forcer les noirs à se retrouver dans une position de Greco. Conseil: Le Cavalier doit se sacrifier.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Find the move which will force the black to be in a Greco's position. Tip : The Knight must be sacrificed.--</Explanation>
+   <Move>Player Knight 6 4 7 6-Auto Pawn 8 7 7 6-Auto Rook 3 1 8 1-Auto Queen 3 8 8 3-Auto Rook 8 1 8 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>3 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 3</Pawn>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Bishop>6 5</Bishop>
+    <Rook>6 8</Rook>
+    <Knight>5 4</Knight>
+    <King>8 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Le Cavalier noir, en bougeant, fait un échec double au Roi blanc (le Cavalier fait échec et le Fou également). Le Roi blanc est obligé de bouger. Vous devez trouver le coup suivant qui va permettre de se placer dans la position de Greco.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. The black Knight, when moving, discovers a double check against the white King (the Knight attacks and also the Bishop). The white King has to move. You need to find out the next move which will allow to be in the Greco's position.--</Explanation>
+   <Move>Auto Knight 5 4 4 2-Auto King 2 1 1 1-Player Knight 4 2 2 3-Auto Pawn 1 2 2 3-Auto Rook 6 8 1 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>6 3</Bishop>
+    <Bishop>2 2</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>3 1</Rook>
+    <Pawn>7 2</Pawn>
+    <Pawn>4 4</Pawn>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Bishop>7 3</Bishop>
+    <Bishop>4 3</Bishop>
+    <Rook>6 6</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>5 4</Knight>
+    <King>8 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Il faut trouver les 2 coups qui vont permettre de faire échec et mat dans la position de Greco.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. You need to find out 2 moves wich will allow to checkmate in the Greco's position.--</Explanation>
+   <Move>Player Bishop 7 3 6 2-Auto King 8 1 8 2-Player Rook 6 6 8 6-Auto Bishop 6 3 8 5-Auto Rook 8 6 8 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>6 7</Queen>
+    <Bishop>3 4</Bishop>
+    <Rook>8 1</Rook>
+    <Pawn>4 3</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>3 5</Bishop>
+    <Rook>5 8</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>4 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Knight>8 7</Knight>
+    <Knight>3 6</Knight>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Il faut trouver le coup brillant qui permet de faire échec et mat avec la Reine blanche dans une position de Greco. Conseil : Il faut sacrifier une pièce.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. You need to find the brillant move that will allow a checkmate with the white Queen in a Greco's position. Tip : You need to sacrifice a piece.--</Explanation>
+   <Move>Player Rook 8 1 8 7-Auto King 8 8 8 7-Auto Queen 6 7 8 5-</Move>
+  </Demo>
+ </DemosMatGreco>
+ <DemosMatBoden>
+  <Demo>
+   <White>
+    <Queen>1 3</Queen>
+    <Rook>5 1</Rook>
+    <Rook>4 1</Rook>
+    <Pawn>6 3</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>1 2</Pawn>
+    <Knight>5 2</Knight>
+    <Knight>3 3</Knight>
+    <King>6 1</King>
+   </White>
+   <Black>
+    <Bishop>3 8</Bishop>
+    <Bishop>2 6</Bishop>
+    <Rook>8 8</Rook>
+    <Rook>5 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <King>2 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Il faut trouver le coup qui permet de faire le mat de Boden.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. You need to find out the move which allow the Boden's mate.--</Explanation>
+   <Move>Player Bishop 3 8 8 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>5 7</Bishop>
+    <Bishop>6 3</Bishop>
+    <Pawn>6 6</Pawn>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Rook>2 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Knight>7 6</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Trouver le coup qui fait le mat de Boden. PS: le Fou E7 est protégé par le Pion F6, le Roi noir ne peut donc pas l'attaquer.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White to play. Find out the move which give the Boden's checkmate. PS: the E7 Bishop is protected by the F6 Pawn, so the black King cannot attack him.--</Explanation>
+   <Move>Player Bishop 6 3 3 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 2</Queen>
+    <Rook>8 1</Rook>
+    <Pawn>1 3</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Knight>3 3</Knight>
+    <Knight>4 1</Knight>
+    <King>1 2</King>
+   </White>
+   <Black>
+    <Queen>2 7</Queen>
+    <Bishop>7 7</Bishop>
+    <Bishop>4 3</Bishop>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 6</Pawn>
+    <Pawn>1 6</Pawn>
+    <King>1 7</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Trouver un coup subtile qui va permettre d'effectuer le mat de Boden au prochain coup. Conseil : Pensez à sacrifier la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. Find out the subtile move that will allow the Boden's mate the very next move. Tip : Think to sacrifice the Queen.--</Explanation>
+   <Move>Player Queen 2 7 2 1-Auto Knight 3 3 2 1-Auto Bishop 4 3 3 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>6 3</Queen>
+    <Bishop>4 5</Bishop>
+    <Bishop>5 3</Bishop>
+    <Rook>4 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 3</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>6 4</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>4 2</Knight>
+    <King>3 1</King>
+   </White>
+   <Black>
+    <Queen>6 6</Queen>
+    <Bishop>6 5</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>8 8</Rook>
+    <Rook>5 8</Rook>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Knight>3 6</Knight>
+    <King>3 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Trouvez le coup qui va permettre de faire le mat de Boden au prochain coup. Conseil : pensez encore au sacrifice de la Reine qui menace mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. Find out the move that will allow the Boden's mate the next move. Tip : think again about a sacrifice from the Queen which threatens a mate.--</Explanation>
+   <Move>Player Queen 6 6 3 3-Auto Pawn 2 2 3 3-Auto Bishop 6 8 1 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 2</Queen>
+    <Bishop>1 3</Bishop>
+    <Bishop>4 3</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>3 3</Pawn>
+    <Pawn>4 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>7 1</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>3 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 6</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>5 6</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 6</Pawn>
+    <Knight>4 7</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Trouvez le coup qui permettra le mat de Boden au prochain coup: Conseil : pensez encore au sacrifice de la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White to play. Find out the move that will allow the Boden's mate the very next move. Tip : Think again about a Queen sacrifice.--</Explanation>
+   <Move>Player Queen 5 2 5 6-Auto Pawn 6 7 5 6-Auto Bishop 4 3 7 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 4</Queen>
+    <Bishop>5 5</Bishop>
+    <Bishop>4 3</Bishop>
+    <Rook>4 1</Rook>
+    <Rook>7 3</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 3</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Queen>8 6</Queen>
+    <Bishop>5 6</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 6</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les noirs ont fait une terrible erreur en roquant. Par un sacrifice, les blancs peuvent faire échec et mat dans une position de Boden. Trouvez le sacrifice.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White to play. The blacks made a terrible mistake by castling. By the way of a sacrifice, whites can do checkmate in a Boden's position.--</Explanation>
+   <Move>Auto King 5 8 3 8-Player Queen 5 4 3 6-Auto Pawn 2 7 3 6-Auto Bishop 4 3 1 6-</Move>
+  </Demo>
+ </DemosMatBoden>
+ <DemosMatAnastasie>
+  <Demo>
+   <White>
+    <Queen>4 2</Queen>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 4</Pawn>
+    <Pawn>7 3</Pawn>
+    <Knight>4 5</Knight>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Queen>1 6</Queen>
+    <Bishop>3 6</Bishop>
+    <Rook>4 8</Rook>
+    <Rook>6 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+    <King>7 8</King>
+   </Black>
+   <Explanation>fr:--Le Roi noir est mis en échec par le Cavalier. Il est obligé de bouger car aucune pièce ne peut le capturer. Trouvez le coup qui permet de faire mat dans une position d'Anastasie.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The Knight gives check to the black King. So, he has to move because no friendly piece can capture the Knight. Find out the move that allows to checkmate in an Anastasia's position. --</Explanation>
+   <Move>Auto Knight 4 5 5 7-Auto King 7 8 8 7-Player Queen 4 2 8 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 2</Queen>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 4</Pawn>
+    <Pawn>7 3</Pawn>
+    <Knight>4 5</Knight>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Queen>1 6</Queen>
+    <Bishop>3 6</Bishop>
+    <Rook>4 8</Rook>
+    <Rook>6 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <King>7 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Trouvez le coup qui permettra de faire un mat d'Anastasie au prochain coup. Conseil : Pensez à un sacrifice.--&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--White to play. Find out the move that will allow to do an Anastasia's checkmate the very next move. Tip : think to a sacrifice.--</Explanation>
+   <Move>Auto Knight 4 5 5 7-Auto King 7 8 8 8-Player Rook 8 1 8 7-Auto King 8 8 8 7-Auto Queen 4 2 8 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>6 6</Queen>
+    <Bishop>5 2</Bishop>
+    <Rook>3 1</Rook>
+    <Rook>6 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>6 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 3</Pawn>
+    <Knight>1 4</Knight>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Queen>7 8</Queen>
+    <Bishop>7 3</Bishop>
+    <Rook>8 4</Rook>
+    <Rook>3 8</Rook>
+    <Pawn>7 6</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 6</Pawn>
+    <Pawn>5 5</Pawn>
+    <Knight>3 4</Knight>
+    <King>2 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Le Cavalier noir a donné échec au Roi. Ce dernier doit donc bouger. Trouvez le coup qui va permettre de faire mat dans la position d'Anastasie le coup suivant.--&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. The black Knight gave check to the white King. So this one has to move. Find out the move that will allow to checkmate in an Anastasia prosotion the very next move. --&#xd;&#xd;&#xd;&#xd;
+</Explanation>
+   <Move>Auto Knight 3 4 4 2-Auto King 2 1 1 1-Player Queen 7 8 1 2-Auto King 1 1 1 2-Auto Rook 8 4 1 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>6 4</Queen>
+    <Pawn>4 2</Pawn>
+    <King>4 1</King>
+   </White>
+   <Black>
+    <Rook>2 8</Rook>
+    <Knight>4 4</Knight>
+    <King>3 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Trouvez le coup qui donne un mat d'Anastasie.--&#xd;&#xd;&#xd;
+en:--Blacks to play. Find the move that gives an Anastasia's checkmate.--</Explanation>
+   <Move>Player Rook 2 8 2 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>8 3</Rook>
+    <Pawn>3 7</Pawn>
+    <Knight>3 4</Knight>
+    <King>2 8</King>
+   </White>
+   <Black>
+    <Rook>3 1</Rook>
+    <Pawn>3 2</Pawn>
+    <Pawn>1 3</Pawn>
+    <Knight>2 2</Knight>
+    <King>1 2</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux blancs de jouer. Trouvez le coup qui va permettre un mat d'Anastasie au prochain coup. Conseil : il est possible de donner un échec au Roi sans sacrifice.--en:--Whites to play. Find out the move that will allow an Anastasia's checkmate the very next move. Tip: it is possible to give check to the King without any sacrifice.--</Explanation>
+   <Move>Player Rook 8 3 1 3-Auto King 1 2 2 1-Auto Knight 3 4 4 2-</Move>
+  </Demo>
+ </DemosMatAnastasie>
+ <DemosMatLegal>
+  <Demo>
+   <White>
+    <Queen>4 1</Queen>
+    <Bishop>3 1</Bishop>
+    <Bishop>3 4</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 2</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>3 3</Knight>
+    <Knight>6 3</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>7 4</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 6</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>2 8</Knight>
+    <Knight>7 8</Knight>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Plutôt que de capturer le Cavalier, les noirs ont péféré capturé la Reine. Cependant, cela se révèle une grave erreur car les blancs font échec au Roi avec le Fou. Le Roi noir est obligé de se déplacer car le Fou est protégé par le Cavalier. On se retrouve dans la position de Legal. Trouvez le coup qui fait mat.--&#xd;
+en:--White to play. Instead of capturing the Knight, black prefered to capture the Queen. However, this is a terrible mistake because white do check to the King with the Bishop. The black King has to move because the Bishop is protected by the Knight. So, we are in the Legal's position. Find the move that does mate the King.--</Explanation>
+   <Move>Auto Knight 6 3 5 5-Auto Bishop 7 4 4 1-Auto Bishop 3 4 6 7-Auto King 5 8 5 7-Player Knight 3 3 4 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>4 1</Queen>
+    <Bishop>6 1</Bishop>
+    <Bishop>7 5</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 3</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 3</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>6 3</Knight>
+    <Knight>5 4</Knight>
+    <King>5 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>7 4</Bishop>
+    <Bishop>3 5</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>3 6</Knight>
+    <Knight>6 6</Knight>
+    <King>5 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Trouvez le coup qui fait mat dans la position de Legal. Conseil : Le cavalier blanc est dit cloué. C'est-à-dire qu'il ne peut pas bouger, sinon, le Roi blanc est en échec. Ce qui est interdit.--
+en:--Black to play. Find the move that does checkmate in the Legal's position. Tip : the white Knight is said pinned. That is to say, he cannot move because the white King would be in check. That is forbidden.--</Explanation>
+   <Move>Auto Knight 6 6 5 4-Auto Bishop 7 5 4 8-Auto Bishop 3 5 6 2-Auto King 5 1 5 2-Player Knight 3 6 4 4-</Move>
+  </Demo>
+ </DemosMatLegal>
+</ToutesDemos>

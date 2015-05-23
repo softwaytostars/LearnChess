@@ -1,0 +1,911 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosTacticDoubleAttack>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Queen>5 1</Queen>
+    <Rook>5 4</Rook>
+    <Pawn>1 1</Pawn>
+    <Pawn>2 2</Pawn>
+    <Knight>4 7</Knight>
+   </White>
+   <Black>
+    <King>1 8</King>
+    <Queen>6 5</Queen>
+    <Rook>3 8</Rook>
+    <Pawn>3 6</Pawn>
+   </Black>
+   <Explanation>fr:--Trouvez une attaque double avec le Cavalier blanc.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Fin a double attack with the white Knight.--</Explanation>
+   <Move>Player Knight 4 7 2 6-Auto King 1 8 2 8-Auto Knight 2 6 3 8-x Rook 3 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 8</King>
+    <Pawn>7 7</Pawn>
+    <Knight>6 2</Knight>
+   </White>
+   <Black>
+    <King>7 3</King>
+    <Bishop>4 6</Bishop>
+    <Pawn>8 4</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux blancs de jouer. Le Cavalier peut faire une fourchette (attaque double) entre le Roi Noir et le Fou Noir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The Knight can do a fork (double attack) betwwen the Black King and the Black Bishop.--</Explanation>
+   <Move>Player Knight 6 2 5 4-Auto King 7 3 6 4-Auto Knight 5 4 4 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 2</King>
+    <Queen>1 8</Queen>
+    <Bishop>4 5</Bishop>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 3</Pawn>
+   </White>
+   <Black>
+    <King>8 7</King>
+    <Queen>4 3</Queen>
+    <Rook>2 3</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Explanation>fr:--Aux Blancs de jouer. Le Fou (protégé par la Reine blanche) fait une fourchette (attaque double) contre la Reine Noire et le Roi Noir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The Bishop (protected by the White Queen) makes a fork (double attack) against the Black Queen and the Black King.--</Explanation>
+   <Move>Player Bishop 4 5 5 4-Auto Queen 4 3 5 4-Auto Queen 1 8 5 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>1 1</King>
+    <Queen>7 2</Queen>
+    <Rook>2 1</Rook>
+    <Pawn>1 3</Pawn>
+    <Pawn>2 2</Pawn>
+    <Knight>3 3</Knight>
+   </White>
+   <Black>
+    <King>2 8</King>
+    <Queen>1 5</Queen>
+    <Bishop>5 5</Bishop>
+    <Rook>4 7</Rook>
+    <Rook>3 4</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 6</Pawn>
+    <Pawn>3 6</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les blancs peuvent faire une fourchette entre le Roi noir et une Tour noire non protégée.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Whites can do a fork between the black King and a black Rook which is not protected.--</Explanation>
+   <Move>Player Queen 7 2 7 8-Auto King 2 8 3 7-Auto Queen 7 8 3 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>8 3</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>1 5</Queen>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 6</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>5 6</Pawn>
+    <Knight>4 6</Knight>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. La Tour blanche a été bien imprudente de prendre le Cavalier. En effet, les noirs peuvent effectuer une attaque double (fourchette) entre le Roi et la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The white Rook was very imprudent to take the Knight. Indeed, Blacks can perform a double attack (fork) between the King and the Rook.--</Explanation>
+   <Move>Auto Rook 4 1 4 6-Player Queen 1 5 3 5-Auto King 7 1 6 1-Auto Queen 3 5 4 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 2</King>
+    <Queen>6 5</Queen>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 3</Pawn>
+    <Pawn>6 4</Pawn>
+    <Knight>6 2</Knight>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Queen>3 1</Queen>
+    <Bishop>2 6</Bishop>
+    <Rook>5 2</Rook>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 7</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. La Reine blanche peut faire une fourchette avec le Roi noir permettant de gagner la Tour noire.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The white Queen can do a fork with the black King, allowing to win the black Rook. --</Explanation>
+   <Move>Player Queen 6 5 8 5-Auto King 5 8 4 8-Auto Queen 8 5 5 2-</Move>
+  </Demo>
+ </DemosTacticDoubleAttack>
+ <DemosTacticDiscoveredAttack>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>3 4</Queen>
+    <Bishop>7 2</Bishop>
+    <Rook>6 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 3</Pawn>
+    <Pawn>2 3</Pawn>
+   </White>
+   <Black>
+    <Queen>3 8</Queen>
+    <Bishop>3 5</Bishop>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 6</Pawn>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>5 6</Pawn>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. La Reine blanche n'est pas prot?g?e. Une attaque du Fou noir sur le Roi blanc permet de capture la Reine blanche en sacrifiant le Fou noir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--It's time for Blacks to play. The white Queen is not protected. An attack from the black bishop onto the white King allows to capture the white Queen sacrificing the black Bishop.--</Explanation>
+   <Move>Auto Pawn 2 3 2 4-Player Bishop 3 5 6 2-Auto Rook 6 1 6 2-Auto Queen 3 8 3 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>6 2</Queen>
+    <Bishop>4 3</Bishop>
+    <Rook>4 1</Rook>
+    <Rook>6 6</Rook>
+    <Pawn>3 2</Pawn>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Queen>4 6</Queen>
+    <Bishop>5 6</Bishop>
+    <Rook>1 8</Rook>
+    <Pawn>2 7</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>1 6</Pawn>
+    <Knight>5 7</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le Fou blanc en donnant �chec au Roi noir d�couvre une attaque de la Tour D1 sur la Reine noire.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--It's white's turn. The white Bishop giving chess to Black King discovers an attack from the D1 Rook on the Black Queen.--</Explanation>
+   <Move>Player Bishop 4 3 2 5-Auto Pawn 1 6 2 5-Auto Rook 4 1 4 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 1</King>
+    <Queen>2 4</Queen>
+    <Pawn>8 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>3 3</Pawn>
+   </White>
+   <Black>
+    <King>6 1</King>
+    <Queen>5 1</Queen>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux Noirs de jouer. Les Noirs font un échec à la découverte en bougeant leur Roi en F2 (la Reine fait échec). La position du Roi noir permet d'empêcher le Roi blanc de s'échapper en G3 puisque le Roi Noir attaque désormais cette case. Le Roi blanc étant en échec doit bouger (une seule case possible). Les Noirs font ensuite échec et mat avec la Reine. Le Roi noir ne peut reprendre la Reine car elle est protégée par le Roi Noir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Black to play. Blacks give a discover attack by moving their King on the square F2 (Queen gives check). The position of the black King can prevent the white King to escape bythe G3 square because the Black King now attacking it. The white King, in check, must move (only one possible square). Then, Blacks do checkmate with the Queen. The White King can not capture the Queen because it is protected by the Black King--</Explanation>
+   <Move>Player King 6 1 6 2-Auto King 8 1 8 2-Auto Queen 5 1 7 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>6 3</King>
+    <Bishop>3 3</Bishop>
+    <Rook>6 2</Rook>
+    <Pawn>4 3</Pawn>
+    <Pawn>2 3</Pawn>
+   </White>
+   <Black>
+    <King>7 6</King>
+    <Bishop>6 6</Bishop>
+    <Pawn>8 6</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>3 5</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Ils peuvent capturer le Fou blanc grâce à une attaque à la découverte--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. They can capture the white Bishop thanks to a discovered attack.--</Explanation>
+   <Move>Player Pawn 5 5 5 4-Auto King 6 3 5 4-Auto Bishop 6 6 3 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>3 1</King>
+    <Queen>1 2</Queen>
+    <Pawn>3 2</Pawn>
+    <Pawn>2 3</Pawn>
+    <Knight>5 3</Knight>
+   </White>
+   <Black>
+    <King>2 8</King>
+    <Queen>5 8</Queen>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Knight>5 4</Knight>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs ont une attaque à la découverte contre le Cavalier en E3 (Conseil: il faut attaquer la Reine blanche)--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Blacks have a discovered attack against the Knight located in E3 (advice : you need to attack the white Queen).--</Explanation>
+   <Move>Player Knight 5 4 3 3-Auto Queen 1 2 1 5-Auto Queen 5 8 5 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Rook>8 4</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 3</Pawn>
+    <Pawn>4 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 3</Pawn>
+    <Knight>5 3</Knight>
+   </White>
+   <Black>
+    <King>1 8</King>
+    <Queen>5 6</Queen>
+    <Bishop>2 4</Bishop>
+    <Rook>5 8</Rook>
+    <Pawn>2 5</Pawn>
+    <Pawn>3 6</Pawn>
+    <Pawn>4 6</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les blancs ont une attaque à la découverte contre le Fou noir (conseil : seul le Pion D4 empêche la Tour blanche de capturer le Fou noir).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Whites have a discovered attack against the black Bishop (advice : only the D4 Pawn prevents the White Rook to capture the black Bishop).--</Explanation>
+   <Move>Player Pawn 4 4 4 5-Auto Pawn 3 6 4 5-Auto Rook 8 4 2 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>6 7</King>
+    <Queen>8 6</Queen>
+    <Rook>1 8</Rook>
+    <Pawn>2 7</Pawn>
+    <Pawn>6 6</Pawn>
+    <Pawn>7 5</Pawn>
+   </White>
+   <Black>
+    <King>7 1</King>
+    <Bishop>3 4</Bishop>
+    <Rook>4 9</Rook>
+    <Rook>6 1</Rook>
+    <Rook>4 5</Rook>
+    <Pawn>2 3</Pawn>
+    <Pawn>8 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>6 2</Pawn>
+   </Black>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs peuvent faire une attaque à la découverte contre la Tour blanche (conseil : seule la Tour noire empêche le Fou noir de donner échec au Roi).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Blacks can do a discovered attack against the white Roo (advice: only the black Rook prevents the black Bishop to give check to the White King).--</Explanation>
+   <Move>Player Rook 4 5 4 8-Auto King 6 7 7 7-Auto Rook 4 8 1 8-</Move>
+  </Demo>
+ </DemosTacticDiscoveredAttack>
+ <DemosTacticRemovingGuard>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>6 2</Queen>
+    <Rook>1 1</Rook>
+    <Rook>6 1</Rook>
+    <Pawn>5 2</Pawn>
+    <Pawn>6 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Knight>1 3</Knight>
+   </White>
+   <Black>
+    <King>8 6</King>
+    <Queen>4 7</Queen>
+    <Bishop>3 6</Bishop>
+    <Rook>1 6</Rook>
+    <Pawn>8 4</Pawn>
+    <Pawn>7 5</Pawn>
+    <Pawn>6 6</Pawn>
+    <Knight>2 5</Knight>
+    <Knight>2 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le Cavalier B6 n'est d?fendu que par la Tour noire. On peut arriver ? retirer cette d?fense en d?gageant la colonne de la Tour A.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--It's time for Blacks to play. The B6 Knight is protected only by the black Rook. One can remove this guard attacking the Rook with the white A Rook.--</Explanation>
+   <Move>Player Knight 1 3 2 5-Auto Bishop 3 6 2 5-Auto Rook 1 1 1 6-Auto Bishop 2 5 1 6-Auto Queen 6 2 2 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 4</King>
+    <Rook>6 4</Rook>
+    <Pawn>1 6</Pawn>
+   </White>
+   <Black>
+    <King>6 8</King>
+    <Bishop>6 7</Bishop>
+    <Rook>4 5</Rook>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le seul défenseur de la Tour noire est le Fou.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The only defender of the Black Rook is the Bishop.--</Explanation>
+   <Move>Player Rook 6 4 6 7-Auto King 6 8 6 7-Auto King 5 4 4 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Queen>4 1</Queen>
+    <Bishop>3 1</Bishop>
+    <Bishop>2 5</Bishop>
+    <Rook>1 1</Rook>
+    <Rook>8 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>3 2</Pawn>
+    <Pawn>4 2</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Knight>2 1</Knight>
+    <Knight>6 3</Knight>
+   </White>
+   <Black>
+    <King>5 8</King>
+    <Queen>4 8</Queen>
+    <Bishop>3 8</Bishop>
+    <Bishop>6 8</Bishop>
+    <Rook>1 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 6</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 7</Pawn>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>8 7</Pawn>
+    <Knight>3 6</Knight>
+    <Knight>7 8</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le seul défenseur du pion E5 est le Cavalier C6. Eliminez le défenseur!--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The only defender of the Pawn E5 is the Knight C6. Eliminate the defender!--</Explanation>
+   <Move>Player Bishop 2 5 3 6-Auto Pawn 4 7 3 6-Auto Knight 6 3 5 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>1 1</King>
+    <Queen>3 3</Queen>
+    <Pawn>4 3</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>1 2</Pawn>
+    <Knight>2 1</Knight>
+   </White>
+   <Black>
+    <King>1 7</King>
+    <Queen>1 5</Queen>
+    <Rook>2 5</Rook>
+    <Pawn>2 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs menacent la Reine blanche et celle-ci a pour unique défenseur le Cavalier blanc. Eliminez le défenseur!--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Black can threat the White Queen and this one has for unique defender the white Knight. Remove the defender!--</Explanation>
+   <Move>Player Rook 2 5 2 1-Auto King 1 1 2 1-Auto Queen 1 5 3 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Rook>6 1</Rook>
+    <Rook>5 1</Rook>
+    <Pawn>7 6</Pawn>
+    <Pawn>7 2</Pawn>
+   </White>
+   <Black>
+    <King>8 8</King>
+    <Rook>5 7</Rook>
+    <Rook>1 3</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Knight>5 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Si la Tour blanche F1 se déplace en F8, le Roi noir est mat. Le seul défenseur de cette case est le Cavalier. Il suffit d'éliminer ce défenseur.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. If the white Rook located in F1 moves to F8, the Black King is mate. The only defender of the square F8 is the Knight. Simply remove this defender.--</Explanation>
+   <Move>Player Rook 5 1 5 6-Auto Rook 5 7 5 6-Auto Rook 6 1 6 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>1 1</King>
+    <Queen>7 4</Queen>
+    <Pawn>1 2</Pawn>
+    <Knight>6 3</Knight>
+   </White>
+   <Black>
+    <King>1 7</King>
+    <Queen>2 7</Queen>
+    <Pawn>5 2</Pawn>
+    <Pawn>2 6</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs ont un Pion proche de la promotion. Seul le Cavalier défend la case E1 qui empêche les noirs de promouvoir leur Pion. En supprimant ce défenseur, les noirs font un sacrifice mais qui leur permet de promouvoir leur Pion. Au final, les blancs n'ont plus de pièce d'avance (Cavalier mort).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. Black have a Pawn near promotion. The Knight is the only defender of the square E1, where the Pawn can be promoted. Removing this defender, Black do a sacrifice but which allows them to promote their Pawn. At end, Whites have no more piece in advance (Knight is dead).--</Explanation>
+   <Move>Player Queen 2 7 6 3-Auto Queen 7 4 6 3-Auto  5 2 5 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 7</King>
+    <Bishop>4 6</Bishop>
+    <Rook>3 7</Rook>
+    <Rook>4 8</Rook>
+    <Pawn>3 6</Pawn>
+   </White>
+   <Black>
+    <King>1 3</King>
+    <Rook>4 7</Rook>
+    <Rook>8 7</Rook>
+    <Pawn>2 4</Pawn>
+   </Black>
+   <Explanation>fr:--Aux noirs de jouer. La tour D7 peut attaquer 3 pièces. En éliminant un défenseur du Fou, il est possible de capturer 2 pièces en échange d'une seule.--&#xd;
+en:--Blacks to play. The Rook D7 can attack 3 pieces. Eliminating a defender of the Bishop, it is possible to capture 2 piece in exchange of only one.--</Explanation>
+   <Move>Player Rook 4 7 4 8-Auto Rook 3 7 8 7-Auto Rook 4 8 4 6-</Move>
+  </Demo>
+ </DemosTacticRemovingGuard>
+ <DemosTacticPinAndSkewer>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>2 3</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>3 3</Pawn>
+    <Pawn>2 2</Pawn>
+    <Knight>6 4</Knight>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>5 5</Queen>
+    <Bishop>5 4</Bishop>
+    <Rook>6 7</Rook>
+    <Pawn>7 7</Pawn>
+   </Black>
+   <Explanation>fr:--La Tour noire est clouée car la Reine blanche attaquerait le Roi noir si celle-ci bougeait. Avec l'attaque de la Tour blanche sur le Roi, le seul choix pour les noirs afin de ne pas perdre leur Reine est de bouger. La Tour noire se retrouve alors sans protection.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black Rook is pinned because the White Queen attack the black King if it moved. With the attack on the White Rook on the King, the only choice for black so as not to lose their queen is moving. The Black Rook finds himself without protection.--</Explanation>
+   <Move>Player Rook 4 1 4 8-Auto King 7 8 8 7-Auto Queen 2 3 6 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>8 1</Queen>
+    <Bishop>7 2</Bishop>
+    <Bishop>6 2</Bishop>
+    <Rook>6 1</Rook>
+    <Rook>1 1</Rook>
+    <Pawn>4 4</Pawn>
+    <Pawn>3 3</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>7 6</Queen>
+    <Rook>6 8</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>6 5</Pawn>
+    <Knight>7 5</Knight>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Le Fou blanc en B7 ne peut pas bouger sinon le Roi blanc serait en échec. Le Cavalier en donnant échec donne donc un échec et mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The white Bishop located on the square B7 cannot move otherwhise he would be in chess. The black Knight giving check gives a checkmate.--</Explanation>
+   <Move>Player Knight 7 5 6 3-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 1</King>
+    <Queen>5 3</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>6 3</Pawn>
+    <Pawn>3 5</Pawn>
+    <Pawn>2 3</Pawn>
+    <Pawn>1 2</Pawn>
+   </White>
+   <Black>
+    <King>2 8</King>
+    <Queen>7 2</Queen>
+    <Rook>7 8</Rook>
+    <Pawn>5 5</Pawn>
+    <Pawn>6 6</Pawn>
+    <Pawn>3 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Pawn>1 6</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--C'est aux noirs de jouer. La Reine noire donne échec au Roi blanc. C'est une enfilade car une Tour blanche se trouve derrière le Roi. Celui-ci est obligé de bouger mais défends toujours la Tour. Un autre échec avec la Tour noire permet aux blancs de prendre la Tour blanche.--en:--It is the black play. The Black Queen gives check to the white King. This is a skewer because White Rook is located behind the King. This one is forced to move but defend the Rook. Another check with the Black Rook allows White to take the White Rook.--</Explanation>
+   <Move>Player Queen 7 2 8 1-Auto King 5 1 4 2-Auto Rook 7 8 7 2-Auto King 4 2 3 3-Auto Queen 8 1 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>6 1</Queen>
+    <Bishop>6 3</Bishop>
+    <Pawn>7 2</Pawn>
+   </White>
+   <Black>
+    <King>1 8</King>
+    <Queen>5 8</Queen>
+    <Bishop>2 7</Bishop>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 6</Pawn>
+    <Pawn>6 5</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. La Reine blanche peut donner échec au Roi en profitant du fait que le Fou noir est cloué. En effet, il ne peut pas bouger sinon le Roi serait en échec contre le Fou blanc. Finalement, le Roi noir est échec et mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The white Queen can gives check to the King by taking advantage that the Black Bishop is pinned. Indeed, he cannot move because the King would be in check against the white Bishop. Finally, the Black King is checkmate.--</Explanation>
+   <Move>Player Queen 6 1 1 6-Auto King 1 8 2 8-Auto Queen 1 6 2 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Bishop>5 2</Bishop>
+    <Rook>7 3</Rook>
+    <Pawn>6 2</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Rook>1 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 6</Pawn>
+    <Knight>8 5</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Un clouage à trouver. Les blancs peuvent capturer une pièce sans rien donner en échange grâce au clouage du pion G6 (le Pion doit rester devant le Roi afin que ce dernier ne soit pas en échec contre la Tour blanche).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Pinning to find. White can capture a piece without giving anything in return thanks to pinned pawn G6 (the pawn must remain in front of the King so that he is not in check against the White Rook).--</Explanation>
+   <Move>Player Bishop 5 2 8 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>3 2</King>
+    <Bishop>3 3</Bishop>
+    <Rook>3 8</Rook>
+    <Pawn>2 2</Pawn>
+    <Knight>2 5</Knight>
+   </White>
+   <Black>
+    <King>3 4</King>
+    <Bishop>3 5</Bishop>
+    <Rook>2 7</Rook>
+    <Knight>4 7</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le Fou noir est cloué car si il bouge le Roi noir serait en échec contre la Tour blanche. En profitant de ce clouage, une fourchette avec le Cavalier est possible.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The black Bishop is pinned because if he moves, the black King would be in check against the white Rook. Taking advantage of this situation, a fork is possible whith the white Knight.--</Explanation>
+   <Move>Player Knight 2 5 4 6-Auto King 3 4 4 5-Auto Knight 4 6 2 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>6 1</King>
+    <Queen>2 1</Queen>
+    <Bishop>4 2</Bishop>
+    <Bishop>6 3</Bishop>
+    <Rook>4 1</Rook>
+    <Pawn>3 4</Pawn>
+    <Pawn>4 3</Pawn>
+    <Pawn>5 2</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>5 6</Queen>
+    <Bishop>8 7</Bishop>
+    <Bishop>4 7</Bishop>
+    <Rook>3 7</Rook>
+    <Pawn>7 7</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. La Reine noire et le Roi noir sont alignés. Une pièce blanche peut bouger menaçant les deux. La Reine noire, clouée, sera capturée.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The black Queen and the black King are aligned. A white piece can move, threatening both. The black Queen, pinned, will be captured. --</Explanation>
+   <Move>Player Bishop 6 3 4 5-Auto Queen 5 6 4 5-Auto Pawn 3 4 4 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 1</King>
+    <Rook>7 1</Rook>
+    <Rook>4 1</Rook>
+    <Pawn>6 6</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>2 3</Pawn>
+    <Pawn>1 4</Pawn>
+   </White>
+   <Black>
+    <King>6 8</King>
+    <Rook>1 7</Rook>
+    <Rook>8 6</Rook>
+    <Pawn>1 5</Pawn>
+    <Pawn>2 4</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Il faut trouver 2 coups à jouer pour capturer la Tour A7 par enfilade. Conseil : il faut donner échec au Roi.--&#xd;&#xd;
+fr:--Whites to play. You need to find 2 moves to play in order to capture the Rook in A7 by the skewer tactic. Hint : One must give check to the King.--</Explanation>
+   <Move>Player Rook 4 1 4 8-Auto King 6 8 6 7-Player Rook 7 1 7 7-Auto King 6 7 6 6-Auto Rook 7 7 1 7-</Move>
+  </Demo>
+ </DemosTacticPinAndSkewer>
+ <DemosTacticDeflection>
+  <Demo>
+   <White>
+    <King>8 1</King>
+    <Queen>4 4</Queen>
+    <Rook>4 1</Rook>
+    <Rook>1 1</Rook>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+   </White>
+   <Black>
+    <King>1 8</King>
+    <Queen>2 6</Queen>
+    <Rook>5 6</Rook>
+    <Pawn>3 7</Pawn>
+    <Pawn>4 6</Pawn>
+    <Pawn>1 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Les noirs peuvent dévier la Tour D1 de sa position où elle protège la Reine blanche. En effet, la Tour noire E6 peut faire échec au Roi. Le Roi ne pouvant s'échapper, les blancs sont obligés de capturer la Tour noire. Seule la Tour D8 le peut, laissant la Reine noire sans défense.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black play. Black can deviate the Rook located in D1 where it protects the White Queen. Indeed, the Black Rook E6 may give check to the King. The King can not escape, so whites are forced to capture the Black Rook. Only Rook D8 can, leaving the Black Queen without any protection.--</Explanation>
+   <Move>Player Rook 5 6 5 1-Auto Rook 4 1 5 1-Auto Queen 2 6 4 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Queen>7 2</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>3 2</Pawn>
+    <Pawn>2 3</Pawn>
+    <Pawn>1 2</Pawn>
+    <Knight>6 3</Knight>
+   </White>
+   <Black>
+    <King>3 8</King>
+    <Queen>1 4</Queen>
+    <Bishop>3 3</Bishop>
+    <Rook>2 8</Rook>
+    <Pawn>2 4</Pawn>
+    <Pawn>4 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Il est possibl,e par le sacrifice de la Reine, de dévier le Roi blanc de manière à le mettre en échec par la suite puis échec et mat. --&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black play. It is possible, by the sacrifice of the Queen, to deviate the White King  so as to give him check and afterwards do checkmate.--</Explanation>
+   <Move>Player Queen 1 4 1 2-Auto King 2 1 1 2-Auto Rook 2 8 1 8-Auto King 1 2 2 1-Auto Rook 1 8 1 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Queen>5 2</Queen>
+    <Rook>7 3</Rook>
+    <Rook>3 1</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 3</Pawn>
+    <Knight>5 5</Knight>
+   </White>
+   <Black>
+    <King>6 8</King>
+    <Queen>1 5</Queen>
+    <Bishop>5 7</Bishop>
+    <Rook>5 8</Rook>
+    <Rook>1 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Pawn>5 6</Pawn>
+    <Pawn>1 6</Pawn>
+    <Pawn>2 5</Pawn>
+    <Pawn>8 7</Pawn>
+    <Pawn>8 6</Pawn>
+    <Knight>6 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les blancs pourraient jouer le Cavalier en D7 et faire échec et mat si le Cavalier blanc n'était pas en F6. Cependant, les blancs ont également une autre menace de mat possible avec la Reine blanche. Si elle pouvait se mettre en F7, ce serait échec et mat également. L'idée est donc de bouger la Reine afin de forcer les noirs à dévier leur Cavalier. Où la Reine blanche peut-elle se mettre pour menacer de se positionner en F7 au prochain coup ?--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Whites could play the Knight in D7 in order to checkmate if the White Knight was not in F6. However, White also has another checkmate threat possible with the White Queen. If she could get in F7, it would also be a checkmate. The idea is to move the Queen to force the black Knight to deviate. Where the White Queen can get for threatening to go in F7 the next move ?--</Explanation>
+   <Move>Player Queen 5 2 8 5-Auto Knight 6 6 8 5-Auto Knight 5 5 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 2</King>
+    <Queen>6 2</Queen>
+    <Bishop>5 3</Bishop>
+    <Bishop>4 1</Bishop>
+    <Rook>6 1</Rook>
+    <Rook>2 1</Rook>
+    <Pawn>1 4</Pawn>
+    <Pawn>3 4</Pawn>
+    <Pawn>5 4</Pawn>
+    <Pawn>4 3</Pawn>
+    <Pawn>8 3</Pawn>
+    <Pawn>7 6</Pawn>
+    <Knight>4 5</Knight>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>4 8</Queen>
+    <Bishop>3 6</Bishop>
+    <Rook>6 8</Rook>
+    <Rook>1 7</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>1 5</Pawn>
+    <Pawn>3 5</Pawn>
+    <Pawn>4 6</Pawn>
+    <Pawn>8 4</Pawn>
+    <Pawn>6 5</Pawn>
+    <Knight>4 4</Knight>
+    <Knight>5 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. La Reine blanche pourrait donner un échec et mat si elle se trouvait en H7. Un moyen d'y parvenir serait d'abord d'aller en H4 mais la case est attaquée par la Reine noire. Un moyen est donc de la dévier pour qu'elle n'attaque plus la case (conseil : La Tour B1 peut se sacrifier).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. White Queen could give a checkmate if it was in H7. One way to achieve this would be to first go to the H4 square but it is attacked by the Black Queen. One way is to deflect it in order it doesn't attack anymore the square (hint: Rook B1 can sacrifice itself).--</Explanation>
+   <Move>Player Rook 2 1 2 8-Auto Queen 4 8 2 8-Auto Queen 6 2 8 4-Auto Queen 2 8 4 8-Auto Queen 8 4 8 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 1</King>
+    <Rook>3 1</Rook>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>6 3</Pawn>
+    <Knight>2 3</Knight>
+   </White>
+   <Black>
+    <King>8 7</King>
+    <Queen>7 6</Queen>
+    <Rook>4 8</Rook>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Si il n'y avait pas la Tour blanche en C1, les noirs pourraient faire échec et mat avec la Tour noire en D1. L'idée est donc de forcer les blancs à dévier leur Tour. (Conseil: les noirs peuvent sacrifier leur Reine).--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. If there was not the White Rook in C1, blacks could checkmate with the black Rook in D1. The idea is then to force whites to deflect their Rook. (Hint: Blacks can sacrifice their Queen) --</Explanation>
+   <Move>Player Queen 7 6 3 2-Auto Rook 3 1 3 2-Auto Rook 4 8 4 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>6 1</King>
+    <Queen>3 3</Queen>
+    <Bishop>6 4</Bishop>
+    <Rook>5 1</Rook>
+    <Pawn>2 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>8 2</Pawn>
+   </White>
+   <Black>
+    <King>7 7</King>
+    <Queen>6 6</Queen>
+    <Bishop>7 6</Bishop>
+    <Rook>5 8</Rook>
+    <Rook>4 8</Rook>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les noirs peuvent faire échec au roi avec une pièce et ainsi dévier le Roi de la protection de sa Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Black can give check to the King with a piece and thus deflect the Kingso that he cannot protect his Queen.--</Explanation>
+   <Move>Player Bishop 6 4 8 6-Auto King 7 7 8 6-Auto Queen 3 3 6 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 2</King>
+    <Queen>5 5</Queen>
+    <Bishop>7 2</Bishop>
+    <Rook>4 6</Rook>
+    <Pawn>7 3</Pawn>
+    <Pawn>8 3</Pawn>
+    <Pawn>6 4</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Queen>1 7</Queen>
+    <Bishop>5 6</Bishop>
+    <Rook>3 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Pawn>7 6</Pawn>
+    <Pawn>8 7</Pawn>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Les blancs peuvent faire un échec qui menace de mat. Les noirs sont obligés de dévier leur Tour et la Reine noire devient sans défense.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Whites can give a check which is a threat of mate. Blacks must deflect their Rook and the black Queen has no more protection.--</Explanation>
+   <Move>Auto Queen 1 7 3 5-Player Rook 4 6 4 8-Auto Rook 3 8 4 8-Auto Queen 5 5 3 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 1</King>
+    <Bishop>5 8</Bishop>
+    <Pawn>7 2</Pawn>
+    <Knight>4 6</Knight>
+   </White>
+   <Black>
+    <King>8 6</King>
+    <Pawn>7 5</Pawn>
+    <Knight>8 5</Knight>
+    <Knight>2 2</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Il faut dévier le Roi noir de la position où il défend le Cavalier.--&#xd;&#xd;&#xd;
+en:--Whites to play. You need to deviate the King from the square where he protects the Knight.--</Explanation>
+   <Move>Player Knight 4 6 6 5-Auto King 8 6 8 7-Auto Bishop 5 8 8 5-</Move>
+  </Demo>
+ </DemosTacticDeflection>
+ <DemosTacticOverLoading>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Rook>2 1</Rook>
+    <Rook>2 5</Rook>
+    <Pawn>8 2</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>6 2</Pawn>
+   </White>
+   <Black>
+    <King>1 8</King>
+    <Rook>3 5</Rook>
+    <Rook>4 8</Rook>
+    <Pawn>2 6</Pawn>
+    <Pawn>1 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Conseil: La Tour blanche B1 est surchargée car elle doit protéger la Tour B5 ainsi que la rangée du Roi. En effet, si la Tour noire vient en D1, le Roi blanc est échec et mat.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Blacks t play. Hint : The white Rook B1 is overloaded because it has to protect the B5 Rook and the rank of the King. Indeed, if the black Rook moves in D1, the white King is checkmate.--</Explanation>
+   <Move>Player Rook 3 5 2 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Bishop>3 2</Bishop>
+    <Rook>1 6</Rook>
+    <Pawn>2 5</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Rook>5 6</Rook>
+    <Pawn>5 7</Pawn>
+    <Knight>6 4</Knight>
+    <Knight>7 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Conseil :  Le Cavalier F4 est surchargé car il doit protéger le second Cavalier ainsi que la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. Hint : The Knight in F4 is overloaded because he has to protect the second Knight and the Rook.--</Explanation>
+   <Move>Player Rook 1 6 5 6-Auto Knight 6 4 5 6-Auto Bishop 3 2 7 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Bishop>5 7</Bishop>
+    <Rook>8 1</Rook>
+    <Pawn>6 2</Pawn>
+   </White>
+   <Black>
+    <King>8 8</King>
+    <Rook>8 6</Rook>
+    <Pawn>7 7</Pawn>
+    <Knight>6 6</Knight>
+   </Black>
+   <Explanation>fr:--Aux blancs de jouer. Le Pion noir est surchargé car il doit défendre le Cavalier et la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Whites to play. The black Pawn is overloaded because he has to protect the Knight and the Rook.--</Explanation>
+   <Move>Player Rook 8 1 8 6-Auto Pawn 7 7 8 6-Auto Bishop 5 7 6 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Queen>4 3</Queen>
+    <Rook>4 1</Rook>
+    <Pawn>8 3</Pawn>
+    <Pawn>7 2</Pawn>
+    <Pawn>6 2</Pawn>
+    <Pawn>4 4</Pawn>
+    <Pawn>5 3</Pawn>
+    <Knight>3 3</Knight>
+   </White>
+   <Black>
+    <King>8 8</King>
+    <Queen>1 4</Queen>
+    <Rook>3 8</Rook>
+    <Pawn>8 6</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. La Reine blanche est surchargée car elle doit protéger la Tour blanche et le Cavalier.--&#xd;&#xd;&#xd;&#xd;
+en:--Blacks to play. The white Wueen is overloaded because she has to protect the white Rook and the Knight.--</Explanation>
+   <Move>Player Rook 3 8 3 3-Auto Queen 4 3 3 3-Auto Queen 1 4 4 1-Auto King 7 1 8 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>5 2</King>
+    <Bishop>5 3</Bishop>
+    <Rook>4 4</Rook>
+    <Knight>6 4</Knight>
+   </White>
+   <Black>
+    <King>4 8</King>
+    <Bishop>8 6</Bishop>
+    <Rook>4 7</Rook>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Aux noirs de jouer. Le Fou blanc est surchargé car il doit protéger la Tour et le Cavalier. Trouvez le coup qui permet de prendre 2 pièces!--
+en:--Blacks to play. The white Bishop is overloaded because he has to protect the Rook and the Knight. Find the move which allows to capture 2 pieces!--</Explanation>
+   <Move>Player Rook 4 7 4 4-Auto Bishop 5 3 4 4-Auto Bishop 8 6 6 4-</Move>
+  </Demo>
+ </DemosTacticOverLoading>
+</ToutesDemos>

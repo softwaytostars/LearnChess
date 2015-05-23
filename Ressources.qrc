@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/ressources">
+        <file>berlin.png</file>
+        <file>merida.png</file>
+        <file>60859.ico</file>
+        <file>ImagesPieces/Austria/Austria_Black.png</file>
+        <file>ImagesPieces/Austria/Austria_White.png</file>
+        <file>Pieces2.jpg</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>translate_en.qm</file>
+        <file>translate_fr.qm</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>ArrowUp.png</file>
+        <file>ArrowDown.png</file>
+    </qresource>
+    <qresource prefix="/Style">
+        <file>MainStyle.qss</file>
+    </qresource>
+    <qresource prefix="/KidsPieces">
+        <file>ImagesPieces/Bishop/black-bishop.png</file>
+        <file>ImagesPieces/Rook/black-rook2.png</file>
+        <file>ImagesPieces/Rook/white-rook2.png</file>
+        <file>ImagesPieces/King/white-king2.png</file>
+        <file>ImagesPieces/Queen/black-queen2.png</file>
+        <file>ImagesPieces/King/black-king2.png</file>
+        <file>ImagesPieces/Knight/angryknights_white.png</file>
+        <file>ImagesPieces/Knight/angryknights_black.png</file>
+        <file>ImagesPieces/Queen/queenfightingwhite.png</file>
+        <file>ImagesPieces/Bishop/bishop_thinkingwhite.png</file>
+        <file>ImagesPieces/Pawn/pawn-black2.png</file>
+        <file>ImagesPieces/Pawn/white-pawn2.png</file>
+        <file>ImagesPieces/Pawn/pawn-black3.png</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file>XML/DemosPiecesMoves.xml</file>
+        <file>XML/TrainingPiecesMoves.xml</file>
+        <file>XML/DemosSpecialMoves.xml</file>
+        <file>XML/TrainingSpecialMoves.xml</file>
+        <file>XML/DemosTactics.xml</file>
+        <file>XML/TrainingTactics.xml</file>
+        <file>XML/DemosPatternsMat.xml</file>
+        <file>XML/TrainingPatternsMat.xml</file>
+    </qresource>
+    <qresource prefix="/Gabriel">
+        <file>Gabriel/Cavalier_blanc.png</file>
+        <file>Gabriel/Cavalier_noir.png</file>
+        <file>Gabriel/Fou_blanc.png</file>
+        <file>Gabriel/Roi_blanc.png</file>
+        <file>Gabriel/Tour_blanc_1.png</file>
+        <file>Gabriel/Tour_noire_1.png</file>
+        <file>Gabriel/Roi_noir.png</file>
+        <file>Gabriel/Pion_blanc.png</file>
+        <file>Gabriel/Pion_noir.png</file>
+        <file>Gabriel/Fou_noir.png</file>
+        <file>Gabriel/Dame_blanche.png</file>
+        <file>Gabriel/Dame_noire.png</file>
+    </qresource>
+</RCC>

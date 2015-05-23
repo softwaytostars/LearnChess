@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/KidsPieces">
+        <file>ImagesPieces/vectorstock_546011/ensifer_Bishop_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Bishop_White.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_King_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_King_White.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Knight_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Knight_White.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Pawn_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Pawn_White.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Queen_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Queen_White.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Rook_Black.png</file>
+        <file>ImagesPieces/vectorstock_546011/ensifer_Rook_White.png</file>
+    </qresource>
+</RCC>

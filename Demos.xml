@@ -1,0 +1,27 @@
+<!DOCTYPE demos
+   PUBLIC ""
+   "">
+<!--This file describe demos-->
+
+<ToutesDemos>
+    <DemosRook name="demos for Rook">
+      <Demo>
+        <White>
+          <Rook>1 3</Rook>
+          <Pawn>1 2</Pawn>
+        </White>
+        <Black>
+          <Pawn>2 8</Pawn>
+        </Black>
+        <Move>0.0 1 3 1.0 1 8</Move>
+      </Demo>
+    </DemosRook>
+    <DemosKnight name="demos for Knight">
+      <Demo>
+        <White>
+          <Knight>1 1</Knight>
+        </White>
+        <Move>0.0 1 1 0.5 1 3 1.0 2 3</Move>
+      </Demo>
+    </DemosRook>
+</ToutesDemos>

@@ -1,0 +1,373 @@
+<!DOCTYPE demos PUBLIC '' ''>
+<!--This file describe demos-->
+<ToutesDemos>
+ <DemosMatCouloir>
+  <Demo>
+   <White>
+    <King>4 1</King>
+    <Rook>3 1</Rook>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Rook>8 6</Rook>
+    <Pawn>8 7</Pawn>
+    <Pawn>7 7</Pawn>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Explanation>fr:--La Tour blanche donne échec et mat dans une position dite mat du couloir. Le Roi noir ne peut se cacher derrière aucune pièce et ne peut bouger. Il est coincé dans son couloir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The White Rook gives checkmate in a position said back rank mate. The King cannot hide behind a piece. He's trapped in the back rank by its own pawns.--</Explanation>
+   <Move>Auto Rook 3 1 3 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>2 1</King>
+    <Rook>1 3</Rook>
+    <Pawn>3 2</Pawn>
+    <Pawn>1 2</Pawn>
+   </White>
+   <Black>
+    <King>7 8</King>
+    <Bishop>7 7</Bishop>
+    <Rook>6 8</Rook>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--La Tour noire donne échec et mat au Roi blanc car il ne peut pas s'échapper de l'attaque. Il n'y a aucune pièce pour s'interposer et le Roi ne peut pas bouger  en B2 à cause du Fou noir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The Black Rook gives checkmate because the white King cannot escape from the attack. There are no pieces to interpose and the King cannot move in B2 because of the black Bishop--</Explanation>
+   <Move>Auto Rook 6 8 6 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+    <Rook>6 3</Rook>
+    <Pawn>6 2</Pawn>
+    <Pawn>7 2</Pawn>
+   </White>
+   <Black>
+    <King>8 8</King>
+    <Rook>7 8</Rook>
+    <Pawn>7 7</Pawn>
+    <Pawn>6 7</Pawn>
+   </Black>
+   <Explanation>fr:--Une autre version du mat du couloir. Sur la colonne, le Roi noir est échec et mat car aucune pièce ne peut s'interposer devant lui et il n'a aucune case sur laquelle échapper à l'attaque de la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--An other version of the back rank mate. On the file, the black King is checkmated because there are no pieces to interpose in front of him and he cannot escape the Rook's attack.--</Explanation>
+   <Move>Auto Rook 6 3 8 3-</Move>
+  </Demo>
+ </DemosMatCouloir>
+ <DemosMatLolli>
+  <Demo>
+   <White>
+    <Queen>8 3</Queen>
+    <Pawn>3 6</Pawn>
+   </White>
+   <Black>
+    <King>4 8</King>
+   </Black>
+   <Explanation>fr:--La Reine blanche fait échec et mat au Roi noir qui ne peut plus s'échapper du baiser mortel de la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The white Queen does checkmate to the black King who cannot escape from the mortal kiss.--</Explanation>
+   <Move>Auto Queen 8 3 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>8 3</Queen>
+    <King>3 6</King>
+   </White>
+   <Black>
+    <King>4 8</King>
+   </Black>
+   <Explanation>fr:--Même explication que précédemment. Cette fois la Reine blanche est protégée par le Roi et non un Pion.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Same explication than the previous one. This time the Queen is proctected by the King and not a Pawn.--</Explanation>
+   <Move>Auto Queen 8 3 4 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>1 5</King>
+   </White>
+   <Black>
+    <Queen>2 3</Queen>
+    <King>3 5</King>
+   </Black>
+   <Explanation>fr:--La Reine noire, protégée par son Roi, donne un baiser de la mort au Roi blanc.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black Queen, protected by its King, gives a kiss of death to the white King.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+</Explanation>
+   <Move>Auto Queen 2 3 2 5-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>2 8</Queen>
+    <Rook>5 1</Rook>
+    <King>6 1</King>
+   </White>
+   <Black>
+    <Queen>8 4</Queen>
+    <Rook>1 2</Rook>
+    <Knight>7 8</Knight>
+    <King>8 8</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--La Reine noire donne d'abord un échec au Roi qui a encore une case sur laquelle s'échapper. Les autres étant interdites par la Tour noire qui attaque la rangée 2. La Reine noire donne ensuite un baiser mortel, protégée par la Tour noire.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black Queen first gives a checl to the King who has only one square left for escaping. Other ones are forbidden by the black Rook which attacks the 2th rank. The black Queen then gives a kiss of death, protected by the black Rook.--</Explanation>
+   <Move>Auto Queen 8 4 8 3-Auto King 6 1 7 1-Auto Queen 8 3 7 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>1 7</Queen>
+    <Bishop>1 2</Bishop>
+    <Pawn>8 2</Pawn>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>8 3</Queen>
+    <King>6 8</King>
+   </Black>
+   <Explanation>fr:--La Reine blanche donne un baiser de la mort au Roi noir, protégée par le Fou.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The White Queen gives a kiss of death to the black King, protected by the Bishop.--</Explanation>
+   <Move>Auto Queen 1 7 6 7-</Move>
+  </Demo>
+ </DemosMatLolli>
+ <DemosMatEtouffe>
+  <Demo>
+   <White>
+    <Pawn>1 2</Pawn>
+    <Pawn>2 2</Pawn>
+    <Knight>4 5</Knight>
+    <Knight>2 1</Knight>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Queen>8 8</Queen>
+    <Rook>8 2</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <Knight>2 8</Knight>
+    <King>1 8</King>
+   </Black>
+   <Explanation>fr:--Le Roi noir est mort étouffé par ses pièces. Il est attaqué par le Cavalier blanc mais ne peut s'enfuir.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black Knight is dead smothered by its pieces. It is attacked by the white Knight but cannot escape.--</Explanation>
+   <Move>Auto Knight 4 5 3 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Rook>2 2</Rook>
+    <Knight>4 5</Knight>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Rook>2 8</Rook>
+    <Rook>8 8</Rook>
+    <Pawn>1 7</Pawn>
+    <Pawn>2 7</Pawn>
+    <King>1 8</King>
+   </Black>
+   <Explanation>fr:----Même configuration que précédemment.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Same configuration than previously.--</Explanation>
+   <Move>Auto Knight 4 5 3 7-</Move>
+  </Demo>
+ </DemosMatEtouffe>
+ <DemosMatEpaulette>
+  <Demo>
+   <White>
+    <Queen>1 2</Queen>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Rook>6 8</Rook>
+    <Rook>4 8</Rook>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Le Roi noir est échec et mat par la configuration des épaulettes. Il est entouré de ses 2 tours et ne peut échapper à l'attaque de la Reine.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black King is checkmate by the Epaulette configuration. He has its 2 Rooks just aside him (like shoulders) and cannot escape from the attack of the white Queen.--</Explanation>
+   <Move>Auto Queen 1 2 5 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>8 3</Bishop>
+    <Rook>5 1</Rook>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Rook>4 8</Rook>
+    <Rook>6 8</Rook>
+    <Pawn>6 7</Pawn>
+    <Pawn>5 5</Pawn>
+    <King>5 8</King>
+   </Black>
+   <Explanation>fr:--Il s'agit du mat des épaulettes. Le roi entouré de ses 2 tours ne peut s'échapper de l'attaque de la Tour. La case D7 étant interdite à cause du Fou.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--It is the Epaulette mate. The King is trapped by its Rooks and cannot escape from the attack of the white Rook. The D7 square being forbidden by the white Bishop.--</Explanation>
+   <Move>Auto Rook 5 1 5 5-x Pawn 5 5 -</Move>
+  </Demo>
+ </DemosMatEpaulette>
+ <DemosMatArabes>
+  <Demo>
+   <White>
+    <Rook>1 7</Rook>
+    <Knight>6 6</Knight>
+    <King>2 5</King>
+   </White>
+   <Black>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Voici le mat Arabe. Le Roi coincé sur le bord de l'échiquier est attaqué par la Tour et ne peut s'échapper car ses cases libres sont attaquées par le Cavalier et la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--Here is the Arabian mate. The King is trapped on the corner of the chessboard and is attacked by the Rook. He cannot escape because it's free squares are attacked by the Knight and the Rook.--</Explanation>
+   <Move>Auto Rook 1 7 8 7-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Rook>7 8</Rook>
+    <Knight>6 3</Knight>
+    <King>1 1</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Le Roi blanc subit le mat Arabe car il n'a aucune case de fuite. La Tour qui l'attaque est protégée par le Cavalier et les autres cases du Roi sont attaquées par le Cavalier et la Tour.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The white King suffers the Arabian mate because he has no square to escape. The Rook which attacks him is protected by the Knight and the other King's squares are attacked by the Knight and the Rook.--</Explanation>
+   <Move>Auto Rook 7 8 7 1-</Move>
+  </Demo>
+ </DemosMatArabes>
+ <DemosMatGreco>
+  <Demo>
+   <White>
+    <Queen>1 2</Queen>
+    <Bishop>2 3</Bishop>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>1 7</Queen>
+    <Pawn>7 7</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Le Roi noir est mat car la Reine blanche l'attaque mais il n'a aucune case de fuite. La case G8 est attaquée par le Fou blanc et la case G7 est occupée.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black KIng is mate because the white Queen attacks him and he has no square to escape. The G8 square is attacked by the white Bishop and the G7 square is occupied.--</Explanation>
+   <Move>Auto Queen 1 2 8 2-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>3 3</Bishop>
+    <Rook>8 1</Rook>
+    <King>2 1</King>
+   </White>
+   <Black>
+    <Rook>1 8</Rook>
+    <Pawn>6 7</Pawn>
+    <King>7 8</King>
+   </Black>
+   <Explanation>fr:--Le Roi noir est mat dans la position de Greco car le Fou protège la Tour qui attaque le Roi. Ce dernier ne peut bouger en F7 à cause du Pion.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The black King is mate in a Greco's position because the Bishop protects the Rook which attacks the King. This one cannot move in F7 square because of the Pawn.--</Explanation>
+   <Move>Auto Rook 8 1 8 8-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>3 4</Bishop>
+    <Rook>2 1</Rook>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Pawn>7 7</Pawn>
+    <King>8 8</King>
+   </Black>
+   <Explanation>fr:--Il s'agit d'un mat de Greco car le Fou blanc empêche le Roi de s'échapper en G8, le Pion G7 bloque le Roi et la Tour attaque ce dernier.--&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--It is a Greco's mate because the Bishop prevents the King to escape on the G8 square, the G7 Pawn blocks the King and the Rook attacks this one.--</Explanation>
+   <Move>Auto Rook 2 1 8 1-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <King>7 1</King>
+   </White>
+   <Black>
+    <Bishop>5 3</Bishop>
+    <Bishop>6 1</Bishop>
+    <Rook>6 2</Rook>
+    <King>7 7</King>
+   </Black>
+   <Rotation/>
+   <Explanation>fr:--Le Roi blanc est mis en échec et mat par l'action combinée du Fou et de la Tour. Le Fou F1 est protégé par la Tour et attaque la case G2. Le Fou E3 attaque le Roi et le met mat car il n'a plus aucune position où fuir et aucune pièce ne peut s'interposer.--&#xd;&#xd;&#xd;&#xd;&#xd;
+en:--The white King is checkmate thanks to the combined action of the Bishop and the Rook. The F1 Bishop is protected by the Rook and attacks the square G2. The E3 Bishop attacks the King and mate him because he has no square to escape and no piece can interpose.--</Explanation>
+   <Move>Auto Rook 6 2 6 3-</Move>
+  </Demo>
+ </DemosMatGreco>
+ <DemosMatBoden>
+  <Demo>
+   <White>
+    <Bishop>8 2</Bishop>
+    <Bishop>6 1</Bishop>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Rook>4 8</Rook>
+    <Knight>4 7</Knight>
+    <King>3 8</King>
+   </Black>
+   <Explanation>fr:--Voici un mat de Boden. Le Roi noir est gêné par ses pièces. Un Fou blanc attaque les cases noires, l'empêchant de s'y déplacer et un autre Fou blanc l'attaque et le met mat.--&#xd;&#xd;&#xd;&#xd;
+en:--This is a Boden's mate. The black King est obstructed by its own pieces. A white Bishop attacks the black squares, preventing him to move on and an other Bishop attacks him, giving checkmate.--</Explanation>
+   <Move>Auto Bishop 6 1 1 6-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Bishop>4 4</Bishop>
+    <Bishop>4 7</Bishop>
+    <Knight>7 1</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Bishop>7 8</Bishop>
+    <Rook>4 8</Rook>
+    <Pawn>8 6</Pawn>
+    <King>8 7</King>
+   </Black>
+   <Explanation>fr:--Encore une configuration de Boden. Le Roi est mat par l'action combinée des 2 Fous blancs. Le Roi ne pouvant s'échapper de l'attaque à cause de ses pièces et le Fou blanc donnant l'attaque ne peut-être attaqué et aucune pièce ne peut s'interposer devant lui.--&#xd;&#xd;&#xd;
+en:--Again a Boden's configuration. The King is mate by the combined action of the 2 white Bishop. The King cannot escape fromt he attack because he is obstructed by it's pieces and the white Bishop giving the check cannot be captured and no piece can interpose between them.--</Explanation>
+   <Move>Auto Bishop 4 7 6 5-</Move>
+  </Demo>
+ </DemosMatBoden>
+ <DemosMatAnastasie>
+  <Demo>
+   <White>
+    <Rook>2 4</Rook>
+    <Knight>5 7</Knight>
+    <King>1 4</King>
+   </White>
+   <Black>
+    <Rook>5 8</Rook>
+    <Pawn>7 7</Pawn>
+    <King>8 7</King>
+   </Black>
+   <Explanation>fr:--Voici un mat d'Anastasie. Le Roi est bloqué par son Pion et le Cavalier l'empêche de s'échapper sur les cases G8 et G6.--&#xd;&#xd;
+en:--This is an Anastasia's mate. The King is obstructed by its Pawn and the Knight prevents him to escape on the squares G8 and G6.--</Explanation>
+   <Move>Auto Rook 2 4 8 4-</Move>
+  </Demo>
+  <Demo>
+   <White>
+    <Queen>5 6</Queen>
+    <Knight>4 7</Knight>
+    <King>8 1</King>
+   </White>
+   <Black>
+    <Queen>3 8</Queen>
+    <Rook>2 7</Rook>
+    <King>1 7</King>
+   </Black>
+   <Explanation>fr:--Voici encore un mat d'Anastasie. Le Roi noir est gêné par sa Tour. Le Cavalier blanc empêche le Roi de se déplacer sur les cases B6 et B8 tandis qu'il est attaqué sur la colonne A. Il ne peut pas fuir, il est mat!--&#xd;
+en:--This is an Anastasia's mate. The black King is obstructed by its Rook. The Knight prevents him to move on the B6 or B8 squares and in the same time he is attacked on the A colonn. He cannot escape, he's mate! --</Explanation>
+   <Move>Auto Queen 5 6 1 2-</Move>
+  </Demo>
+ </DemosMatAnastasie>
+ <DemosMatLegal>
+  <Demo>
+   <White>
+    <Bishop>6 7</Bishop>
+    <Knight>3 3</Knight>
+    <Knight>5 5</Knight>
+    <King>1 1</King>
+   </White>
+   <Black>
+    <Queen>4 8</Queen>
+    <Bishop>6 8</Bishop>
+    <Pawn>4 6</Pawn>
+    <King>5 7</King>
+   </Black>
+   <Explanation>fr:--Voici le mat de Legal. Le Cavalier donne échec et mat au Roi car ce dernier n'a aucune case de fuite. Soit elles sont bloquées par ses pièces amies, soit elles sont attaquées par le Fou ou les Cavaliers.--</Explanation>
+   <Move>Auto Knight 3 3 4 5-</Move>
+  </Demo>
+ </DemosMatLegal>
+</ToutesDemos>
